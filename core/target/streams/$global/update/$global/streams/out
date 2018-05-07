@@ -1,0 +1,919 @@
+[info] Updating {file:/home/dev/IdeaProjects/TodoList/}core...
+[debug] :: building artificial module descriptors from com.allangray#todolist-core;1.0.0
+[debug] ::: dd: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} (artifacts: )
+[debug] ::: dd: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) (artifacts: )
+[debug] ::: dd: dependency: com.allangray.api#todolist;SNAPSHOT-1.0.0 {compile=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: com.allangray.common#common-interfaces;20.0.5 {compile=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: com.allangray.common#common-test-implementations;20.0.5 {test=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: com.oracle#ojdbc6;11.2.0.3 {compile=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: net.sourceforge.jtds#jtds;1.3.1 {test=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: com.allangray.common#common-implementations;20.0.5 {test=[test]} (artifacts: )
+[debug] :: call customResolve recursively: dependency: com.allangray.api#todolist;SNAPSHOT-1.0.0 {compile=[default(compile)]}
+[debug] :: building artificial module descriptors from com.allangray.api#todolist;SNAPSHOT-1.0.0
+[debug] ::: dd: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} (artifacts: )
+[debug] ::: dd: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) (artifacts: )
+[debug] ::: dd: dependency: com.allangray.common#common-primitives;7.0.1 {compile=[default(compile)]} (artifacts: )
+[debug] :: merging update reports
+[debug] ::: -----------
+[debug] :: compile: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict compile: com.allangray.common:common-primitives
+[debug] :: no conflict compile: io.swagger:swagger-annotations
+[debug] :: no conflict compile: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict compile: joda-time:joda-time
+[debug] :: no conflict compile: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict compile: org.scala-lang:scala-reflect
+[debug] :: merging module reports for compile: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: no conflict compile: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict compile: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict compile: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict compile: com.fasterxml.jackson.core:jackson-core
+[debug] ::: -----------
+[debug] :: runtime: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict runtime: com.allangray.common:common-primitives
+[debug] :: no conflict runtime: io.swagger:swagger-annotations
+[debug] :: no conflict runtime: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict runtime: joda-time:joda-time
+[debug] :: no conflict runtime: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict runtime: org.scala-lang:scala-reflect
+[debug] :: merging module reports for runtime: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: no conflict runtime: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict runtime: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict runtime: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict runtime: com.fasterxml.jackson.core:jackson-core
+[debug] ::: -----------
+[debug] :: test: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict test: com.allangray.common:common-primitives
+[debug] :: no conflict test: io.swagger:swagger-annotations
+[debug] :: no conflict test: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict test: joda-time:joda-time
+[debug] :: no conflict test: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict test: org.scala-lang:scala-reflect
+[debug] :: merging module reports for test: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: no conflict test: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict test: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict test: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict test: com.fasterxml.jackson.core:jackson-core
+[debug] ::: -----------
+[debug] :: provided: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: optional: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: compile-internal: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict compile-internal: com.allangray.common:common-primitives
+[debug] :: no conflict compile-internal: io.swagger:swagger-annotations
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict compile-internal: joda-time:joda-time
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict compile-internal: org.scala-lang:scala-reflect
+[debug] :: merging module reports for compile-internal: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: no conflict compile-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.core:jackson-core
+[debug] ::: -----------
+[debug] :: runtime-internal: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict runtime-internal: com.allangray.common:common-primitives
+[debug] :: no conflict runtime-internal: io.swagger:swagger-annotations
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict runtime-internal: joda-time:joda-time
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict runtime-internal: org.scala-lang:scala-reflect
+[debug] :: merging module reports for runtime-internal: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: no conflict runtime-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-core
+[debug] ::: -----------
+[debug] :: test-internal: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict test-internal: com.allangray.common:common-primitives
+[debug] :: no conflict test-internal: io.swagger:swagger-annotations
+[debug] :: no conflict test-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict test-internal: joda-time:joda-time
+[debug] :: no conflict test-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict test-internal: org.scala-lang:scala-reflect
+[debug] :: merging module reports for test-internal: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: no conflict test-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict test-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict test-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict test-internal: com.fasterxml.jackson.core:jackson-core
+[debug] ::: -----------
+[debug] :: plugin: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: sources: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: docs: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: pom: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: scala-tool: loop: List()
+[debug] :: sort result: org.scala-lang:scala-compiler, jline:jline, org.scala-lang.modules:scala-xml_2.12, org.scala-lang:scala-reflect, org.scala-lang:scala-library
+[debug] :: no conflict scala-tool: org.scala-lang:scala-compiler
+[debug] :: no conflict scala-tool: jline:jline
+[debug] :: no conflict scala-tool: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict scala-tool: org.scala-lang:scala-reflect
+[debug] :: merging module reports for scala-tool: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] ::: -----------
+[debug] :: scoveragePlugin: loop: List()
+[debug] :: sort result: 
+[debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
+[debug] ::: remapped configs Map(plugin -> Vector(), pom -> Vector(), test -> Vector(compile), provided -> Vector(), compile-internal -> Vector(compile), docs -> Vector(), scoveragePlugin -> Vector(), optional -> Vector(), compile -> Vector(compile), test-internal -> Vector(compile), scala-tool -> Vector(), sources -> Vector(), runtime -> Vector(compile), runtime-internal -> Vector(compile))
+[debug] :: compile: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict compile: com.allangray.common:common-primitives
+[debug] :: no conflict compile: io.swagger:swagger-annotations
+[debug] :: no conflict compile: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict compile: joda-time:joda-time
+[debug] :: no conflict compile: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict compile: org.scala-lang:scala-reflect
+[debug] :: no conflict compile: org.scala-lang:scala-library
+[debug] :: no conflict compile: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict compile: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict compile: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict compile: com.fasterxml.jackson.core:jackson-core
+[debug] :: runtime: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict runtime: com.allangray.common:common-primitives
+[debug] :: no conflict runtime: io.swagger:swagger-annotations
+[debug] :: no conflict runtime: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict runtime: joda-time:joda-time
+[debug] :: no conflict runtime: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict runtime: org.scala-lang:scala-reflect
+[debug] :: no conflict runtime: org.scala-lang:scala-library
+[debug] :: no conflict runtime: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict runtime: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict runtime: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict runtime: com.fasterxml.jackson.core:jackson-core
+[debug] :: test: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict test: com.allangray.common:common-primitives
+[debug] :: no conflict test: io.swagger:swagger-annotations
+[debug] :: no conflict test: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict test: joda-time:joda-time
+[debug] :: no conflict test: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict test: org.scala-lang:scala-reflect
+[debug] :: no conflict test: org.scala-lang:scala-library
+[debug] :: no conflict test: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict test: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict test: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict test: com.fasterxml.jackson.core:jackson-core
+[debug] :: provided: loop: List()
+[debug] :: sort result: 
+[debug] :: optional: loop: List()
+[debug] :: sort result: 
+[debug] :: compile-internal: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict compile-internal: com.allangray.common:common-primitives
+[debug] :: no conflict compile-internal: io.swagger:swagger-annotations
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict compile-internal: joda-time:joda-time
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict compile-internal: org.scala-lang:scala-reflect
+[debug] :: no conflict compile-internal: org.scala-lang:scala-library
+[debug] :: no conflict compile-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.core:jackson-core
+[debug] :: runtime-internal: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict runtime-internal: com.allangray.common:common-primitives
+[debug] :: no conflict runtime-internal: io.swagger:swagger-annotations
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict runtime-internal: joda-time:joda-time
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict runtime-internal: org.scala-lang:scala-reflect
+[debug] :: no conflict runtime-internal: org.scala-lang:scala-library
+[debug] :: no conflict runtime-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-core
+[debug] :: test-internal: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict test-internal: com.allangray.common:common-primitives
+[debug] :: no conflict test-internal: io.swagger:swagger-annotations
+[debug] :: no conflict test-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict test-internal: joda-time:joda-time
+[debug] :: no conflict test-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict test-internal: org.scala-lang:scala-reflect
+[debug] :: no conflict test-internal: org.scala-lang:scala-library
+[debug] :: no conflict test-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict test-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict test-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict test-internal: com.fasterxml.jackson.core:jackson-core
+[debug] :: plugin: loop: List()
+[debug] :: sort result: 
+[debug] :: sources: loop: List()
+[debug] :: sort result: 
+[debug] :: docs: loop: List()
+[debug] :: sort result: 
+[debug] :: pom: loop: List()
+[debug] :: sort result: 
+[debug] :: scala-tool: loop: List()
+[debug] :: sort result: 
+[debug] :: scoveragePlugin: loop: List()
+[debug] :: sort result: 
+[debug] saving minigraph to /home/dev/.sbt/0.13/dependency/module/dynamic/2018-02-06/5c5f9aa9/com.allangray.api/todolist/SNAPSHOT-1.0.0_temp-resolve-b882df0000e437a98c2ba1ab217e21cfcebb567f/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.allangray.common/common-interfaces/20.0.5_temp-resolve-fba8cf526d9ba779f36bc5964f2d81a5a462c993/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.allangray.common/common-test-implementations/20.0.5_temp-resolve-3175d7264e5706dc8ad5a66517e7e43f9006a578/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.oracle/ojdbc6/11.2.0.3_temp-resolve-6b6be4a2c23a485ee5ff0ef5630fc71982115a37/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/net.sourceforge.jtds/jtds/1.3.1_temp-resolve-3fa38384d6c20f0b1ef916ee44a80fe73becee3d/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.allangray.common/common-implementations/20.0.5_temp-resolve-7cee363fcc1bde433508fb0c4a87378c99ca70ff/graphs/graph.json
+[debug] :: merging update reports
+[debug] ::: -----------
+[debug] :: compile: loop: List()
+[debug] :: sort result: com.allangray.common:common-interfaces, com.oracle:ojdbc6, com.allangray.common:common-primitives, org.squeryl:squeryl_2.12, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, org.scala-lang.modules:scala-xml_2.12, org.json4s:json4s-scalap_2.12, cglib:cglib-nodep, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict compile: com.allangray.common:common-interfaces
+[debug] :: no conflict compile: com.oracle:ojdbc6
+[debug] :: merging module reports for compile: com.allangray.common:common-primitives
+[debug] ::: adds com.allangray.common:common-primitives:7.0.1
+[debug] ::: evicted 
+[debug] :: no conflict compile: org.squeryl:squeryl_2.12
+[debug] :: merging module reports for compile: io.swagger:swagger-annotations
+[debug] ::: adds io.swagger:swagger-annotations:1.5.17
+[debug] ::: evicted 
+[debug] :: merging module reports for compile: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] ::: adds com.fasterxml.jackson.module:jackson-module-scala_2.12:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for compile: joda-time:joda-time
+[debug] ::: adds joda-time:joda-time:2.9.9
+[debug] ::: evicted 
+[debug] :: no conflict compile: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict compile: org.json4s:json4s-scalap_2.12
+[debug] :: no conflict compile: cglib:cglib-nodep
+[debug] :: merging module reports for compile: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] ::: adds com.fasterxml.jackson.module:jackson-module-paranamer:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for compile: org.scala-lang:scala-reflect
+[debug] ::: adds org.scala-lang:scala-reflect:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: merging module reports for compile: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: merging module reports for compile: com.thoughtworks.paranamer:paranamer
+[debug] ::: adds com.thoughtworks.paranamer:paranamer:2.8
+[debug] ::: evicted 
+[debug] :: merging module reports for compile: com.fasterxml.jackson.core:jackson-databind
+[debug] ::: adds com.fasterxml.jackson.core:jackson-databind:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for compile: com.fasterxml.jackson.core:jackson-annotations
+[debug] ::: adds com.fasterxml.jackson.core:jackson-annotations:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for compile: com.fasterxml.jackson.core:jackson-core
+[debug] ::: adds com.fasterxml.jackson.core:jackson-core:2.9.2
+[debug] ::: evicted 
+[debug] ::: -----------
+[debug] :: runtime: loop: List()
+[debug] :: sort result: com.allangray.common:common-interfaces, com.oracle:ojdbc6, com.allangray.common:common-primitives, org.squeryl:squeryl_2.12, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, org.scala-lang.modules:scala-xml_2.12, org.json4s:json4s-scalap_2.12, cglib:cglib-nodep, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict runtime: com.allangray.common:common-interfaces
+[debug] :: no conflict runtime: com.oracle:ojdbc6
+[debug] :: merging module reports for runtime: com.allangray.common:common-primitives
+[debug] ::: adds com.allangray.common:common-primitives:7.0.1
+[debug] ::: evicted 
+[debug] :: no conflict runtime: org.squeryl:squeryl_2.12
+[debug] :: merging module reports for runtime: io.swagger:swagger-annotations
+[debug] ::: adds io.swagger:swagger-annotations:1.5.17
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] ::: adds com.fasterxml.jackson.module:jackson-module-scala_2.12:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime: joda-time:joda-time
+[debug] ::: adds joda-time:joda-time:2.9.9
+[debug] ::: evicted 
+[debug] :: no conflict runtime: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict runtime: org.json4s:json4s-scalap_2.12
+[debug] :: no conflict runtime: cglib:cglib-nodep
+[debug] :: merging module reports for runtime: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] ::: adds com.fasterxml.jackson.module:jackson-module-paranamer:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime: org.scala-lang:scala-reflect
+[debug] ::: adds org.scala-lang:scala-reflect:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime: com.thoughtworks.paranamer:paranamer
+[debug] ::: adds com.thoughtworks.paranamer:paranamer:2.8
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime: com.fasterxml.jackson.core:jackson-databind
+[debug] ::: adds com.fasterxml.jackson.core:jackson-databind:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime: com.fasterxml.jackson.core:jackson-annotations
+[debug] ::: adds com.fasterxml.jackson.core:jackson-annotations:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime: com.fasterxml.jackson.core:jackson-core
+[debug] ::: adds com.fasterxml.jackson.core:jackson-core:2.9.2
+[debug] ::: evicted 
+[debug] ::: -----------
+[debug] :: test: loop: List()
+[debug] :: sort result: com.oracle:ojdbc6, com.allangray.common:common-implementations, com.allangray.common:common-test-implementations, net.sourceforge.jtds:jtds, org.flywaydb:flyway-core, commons-io:commons-io, org.apache.httpcomponents:httpmime, com.h2database:h2, com.allangray.common:common-rest, org.springframework:spring-context, com.allangray.common:common-shared-implementations, org.mockito:mockito-core, org.apache.httpcomponents:httpclient, org.glassfish.jersey.media:jersey-media-multipart, io.jsonwebtoken:jjwt, com.thoughtworks.xstream:xstream, io.swagger:swagger-jaxrs, io.swagger:swagger-scala-module_2.12, io.dropwizard:dropwizard-auth, com.allangray.common:common-interfaces, org.springframework:spring-expression, org.springframework:spring-aop, com.googlecode.json-simple:json-simple, com.mchange:c3p0, org.objenesis:objenesis, net.bytebuddy:byte-buddy-agent, net.bytebuddy:byte-buddy, org.joda:joda-convert, commons-codec:commons-codec, org.apache.httpcomponents:httpcore, org.jvnet.mimepull:mimepull, xpp3:xpp3_min, xmlpull:xmlpull, org.reflections:reflections, io.swagger:swagger-core, javax.ws.rs:jsr311-api, io.dropwizard:dropwizard-core, com.allangray.common:common-primitives, org.squeryl:squeryl_2.12, org.springframework:spring-beans, com.mchange:mchange-commons-java, io.swagger:swagger-models, org.eclipse.jetty.toolchain.setuid:jetty-setuid-java, net.sourceforge.argparse4j:argparse4j, io.dropwizard:dropwizard-request-logging, io.dropwizard.metrics:metrics-servlets, io.dropwizard:dropwizard-servlets, io.dropwizard:dropwizard-jersey, io.dropwizard:dropwizard-metrics, io.dropwizard:dropwizard-configuration, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, org.json4s:json4s-scalap_2.12, cglib:cglib-nodep, org.springframework:spring-core, org.apache.commons:commons-lang3, org.scalatest:scalatest_2.12, junit:junit, ch.qos.logback:logback-access, com.papertrail:profiler, io.dropwizard.metrics:metrics-json, io.dropwizard.metrics:metrics-healthchecks, io.dropwizard.metrics:metrics-jvm, io.dropwizard:dropwizard-jetty, org.eclipse.jetty:jetty-webapp, org.glassfish.jersey.containers:jersey-container-servlet, com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider, io.dropwizard.metrics:metrics-jersey2, org.glassfish.jersey.ext:jersey-bean-validation, org.glassfish.jersey.ext:jersey-metainf-services, io.dropwizard:dropwizard-lifecycle, com.fasterxml.jackson.dataformat:jackson-dataformat-yaml, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang.modules:scala-xml_2.12, org.springframework:spring-jcl, org.hamcrest:hamcrest-core, org.scala-lang.modules:scala-parser-combinators_2.12, org.scalactic:scalactic_2.12, org.eclipse.jetty:jetty-servlets, io.dropwizard.metrics:metrics-jetty9, org.eclipse.jetty:jetty-servlet, org.glassfish.jersey.containers:jersey-container-servlet-core, com.fasterxml.jackson.module:jackson-module-jaxb-annotations, com.fasterxml.jackson.jaxrs:jackson-jaxrs-base, io.dropwizard.metrics:metrics-annotation, org.eclipse.jetty:jetty-xml, io.dropwizard:dropwizard-logging, org.yaml:snakeyaml, org.scala-lang:scala-reflect, com.thoughtworks.paranamer:paranamer, ch.qos.logback:logback-classic, org.eclipse.jetty:jetty-continuation, org.eclipse.jetty:jetty-security, org.glassfish.jersey.core:jersey-server, org.slf4j:jcl-over-slf4j, io.dropwizard.metrics:metrics-logback, io.dropwizard:dropwizard-validation, io.dropwizard:dropwizard-jackson, org.slf4j:jul-to-slf4j, org.slf4j:log4j-over-slf4j, org.scala-lang:scala-library, org.slf4j:slf4j-api, ch.qos.logback:logback-core, com.fasterxml.jackson.datatype:jackson-datatype-joda, org.glassfish.jersey.media:jersey-media-jaxb, org.glassfish.jersey.core:jersey-client, org.eclipse.jetty:jetty-server, io.dropwizard.metrics:metrics-core, org.glassfish:javax.el, org.hibernate:hibernate-validator, com.fasterxml.jackson.module:jackson-module-afterburner, com.fasterxml.jackson.module:jackson-module-parameter-names, com.fasterxml.jackson.datatype:jackson-datatype-jdk8, com.fasterxml.jackson.datatype:jackson-datatype-jsr310, com.fasterxml.jackson.datatype:jackson-datatype-guava, io.dropwizard:dropwizard-util, joda-time:joda-time, com.fasterxml.jackson.core:jackson-databind, com.google.guava:guava, org.glassfish.jersey.core:jersey-common, org.eclipse.jetty:jetty-http, com.fasterxml:classmate, org.jboss.logging:jboss-logging, javax.validation:validation-api, javax.servlet:javax.servlet-api, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core, org.codehaus.mojo:animal-sniffer-annotations, com.google.j2objc:j2objc-annotations, com.google.errorprone:error_prone_annotations, org.checkerframework:checker-qual, org.glassfish.hk2:hk2-locator, org.glassfish.hk2:osgi-resource-locator, org.glassfish.jersey.bundles.repackaged:jersey-guava, javax.annotation:javax.annotation-api, javax.ws.rs:javax.ws.rs-api, org.eclipse.jetty:jetty-io, com.google.code.findbugs:jsr305, org.javassist:javassist, org.glassfish.hk2.external:javax.inject, org.glassfish.hk2:hk2-api, org.eclipse.jetty:jetty-util, org.glassfish.hk2.external:aopalliance-repackaged, org.glassfish.hk2:hk2-utils
+[debug] :: no conflict test: com.oracle:ojdbc6
+[debug] :: no conflict test: com.allangray.common:common-implementations
+[debug] :: merging module reports for test: com.allangray.common:common-test-implementations
+[debug] ::: adds com.allangray.common:common-test-implementations:20.0.5
+[debug] ::: evicted 
+[debug] :: merging module reports for test: net.sourceforge.jtds:jtds
+[debug] ::: adds net.sourceforge.jtds:jtds:1.3.1
+[debug] ::: evicted 
+[debug] :: no conflict test: org.flywaydb:flyway-core
+[debug] :: no conflict test: commons-io:commons-io
+[debug] :: no conflict test: org.apache.httpcomponents:httpmime
+[debug] :: no conflict test: com.h2database:h2
+[debug] :: no conflict test: com.allangray.common:common-rest
+[debug] :: merging module reports for test: org.springframework:spring-context
+[debug] ::: adds org.springframework:spring-context:5.0.2.RELEASE
+[debug] ::: evicted 
+[debug] :: merging module reports for test: com.allangray.common:common-shared-implementations
+[debug] ::: adds com.allangray.common:common-shared-implementations:20.0.5
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.mockito:mockito-core
+[debug] ::: adds org.mockito:mockito-core:2.13.0
+[debug] ::: evicted 
+[debug] :: no conflict test: org.apache.httpcomponents:httpclient
+[debug] :: no conflict test: org.glassfish.jersey.media:jersey-media-multipart
+[debug] :: no conflict test: io.jsonwebtoken:jjwt
+[debug] :: no conflict test: com.thoughtworks.xstream:xstream
+[debug] :: no conflict test: io.swagger:swagger-jaxrs
+[debug] :: no conflict test: io.swagger:swagger-scala-module_2.12
+[debug] :: no conflict test: io.dropwizard:dropwizard-auth
+[debug] :: merging module reports for test: com.allangray.common:common-interfaces
+[debug] ::: adds com.allangray.common:common-interfaces:20.0.5
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.springframework:spring-expression
+[debug] ::: adds org.springframework:spring-expression:5.0.2.RELEASE
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.springframework:spring-aop
+[debug] ::: adds org.springframework:spring-aop:5.0.2.RELEASE
+[debug] ::: evicted 
+[debug] :: merging module reports for test: com.googlecode.json-simple:json-simple
+[debug] ::: adds com.googlecode.json-simple:json-simple:1.1.1
+[debug] ::: evicted 
+[debug] :: merging module reports for test: com.mchange:c3p0
+[debug] ::: adds com.mchange:c3p0:0.9.5
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.objenesis:objenesis
+[debug] ::: adds org.objenesis:objenesis:2.6
+[debug] ::: evicted 
+[debug] :: merging module reports for test: net.bytebuddy:byte-buddy-agent
+[debug] ::: adds net.bytebuddy:byte-buddy-agent:1.7.9
+[debug] ::: evicted 
+[debug] :: merging module reports for test: net.bytebuddy:byte-buddy
+[debug] ::: adds net.bytebuddy:byte-buddy:1.7.9
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.joda:joda-convert
+[debug] ::: adds org.joda:joda-convert:1.9.2
+[debug] ::: evicted 
+[debug] :: no conflict test: commons-codec:commons-codec
+[debug] :: no conflict test: org.apache.httpcomponents:httpcore
+[debug] :: no conflict test: org.jvnet.mimepull:mimepull
+[debug] :: no conflict test: xpp3:xpp3_min
+[debug] :: no conflict test: xmlpull:xmlpull
+[debug] :: no conflict test: org.reflections:reflections
+[debug] :: no conflict test: io.swagger:swagger-core
+[debug] :: no conflict test: javax.ws.rs:jsr311-api
+[debug] :: no conflict test: io.dropwizard:dropwizard-core
+[debug] :: merging module reports for test: com.allangray.common:common-primitives
+[debug] ::: adds com.allangray.common:common-primitives:7.0.1
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.squeryl:squeryl_2.12
+[debug] ::: adds org.squeryl:squeryl_2.12:0.9.9
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.springframework:spring-beans
+[debug] ::: adds org.springframework:spring-beans:5.0.2.RELEASE
+[debug] ::: evicted 
+[debug] :: merging module reports for test: com.mchange:mchange-commons-java
+[debug] ::: adds com.mchange:mchange-commons-java:0.2.9
+[debug] ::: evicted 
+[debug] :: no conflict test: io.swagger:swagger-models
+[debug] :: no conflict test: org.eclipse.jetty.toolchain.setuid:jetty-setuid-java
+[debug] :: no conflict test: net.sourceforge.argparse4j:argparse4j
+[debug] :: no conflict test: io.dropwizard:dropwizard-request-logging
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-servlets
+[debug] :: no conflict test: io.dropwizard:dropwizard-servlets
+[debug] :: no conflict test: io.dropwizard:dropwizard-jersey
+[debug] :: no conflict test: io.dropwizard:dropwizard-metrics
+[debug] :: no conflict test: io.dropwizard:dropwizard-configuration
+[debug] :: merging module reports for test: io.swagger:swagger-annotations
+[debug] ::: adds io.swagger:swagger-annotations:1.5.17
+[debug] ::: evicted 
+[debug] :: merging module reports for test: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] ::: adds com.fasterxml.jackson.module:jackson-module-scala_2.12:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.json4s:json4s-scalap_2.12
+[debug] ::: adds org.json4s:json4s-scalap_2.12:3.5.2
+[debug] ::: evicted 
+[debug] :: merging module reports for test: cglib:cglib-nodep
+[debug] ::: adds cglib:cglib-nodep:3.2.5
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.springframework:spring-core
+[debug] ::: adds org.springframework:spring-core:5.0.2.RELEASE
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.apache.commons:commons-lang3
+[debug] ::: adds org.apache.commons:commons-lang3:3.7
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.scalatest:scalatest_2.12
+[debug] ::: adds org.scalatest:scalatest_2.12:3.0.4
+[debug] ::: evicted 
+[debug] :: merging module reports for test: junit:junit
+[debug] ::: resolving conflict in test:junit:junit (junit:junit:4.10, junit:junit:4.12)
+[debug] ::: adds junit:junit:4.12
+[debug] ::: evicted junit:junit:4.10
+[debug] :::: transitively evicted test: org.hamcrest:hamcrest-core:1.1
+[debug] :: no conflict test: ch.qos.logback:logback-access
+[debug] :: no conflict test: com.papertrail:profiler
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-json
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-healthchecks
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-jvm
+[debug] :: no conflict test: io.dropwizard:dropwizard-jetty
+[debug] :: no conflict test: org.eclipse.jetty:jetty-webapp
+[debug] :: no conflict test: org.glassfish.jersey.containers:jersey-container-servlet
+[debug] :: no conflict test: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-jersey2
+[debug] :: no conflict test: org.glassfish.jersey.ext:jersey-bean-validation
+[debug] :: no conflict test: org.glassfish.jersey.ext:jersey-metainf-services
+[debug] :: no conflict test: io.dropwizard:dropwizard-lifecycle
+[debug] :: no conflict test: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+[debug] :: merging module reports for test: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] ::: adds com.fasterxml.jackson.module:jackson-module-paranamer:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.scala-lang.modules:scala-xml_2.12
+[debug] ::: adds org.scala-lang.modules:scala-xml_2.12:1.0.6
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.springframework:spring-jcl
+[debug] ::: adds org.springframework:spring-jcl:5.0.2.RELEASE
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.hamcrest:hamcrest-core
+[debug] ::: adds org.hamcrest:hamcrest-core:1.3
+[debug] ::: evicted org.hamcrest:hamcrest-core:1.1
+[debug] :: merging module reports for test: org.scala-lang.modules:scala-parser-combinators_2.12
+[debug] ::: resolving conflict in test:org.scala-lang.modules:scala-parser-combinators_2.12 (org.scala-lang.modules:scala-parser-combinators_2.12:1.0.6, org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4)
+[debug] ::: adds org.scala-lang.modules:scala-parser-combinators_2.12:1.0.6
+[debug] ::: evicted org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4
+[debug] :: merging module reports for test: org.scalactic:scalactic_2.12
+[debug] ::: adds org.scalactic:scalactic_2.12:3.0.4
+[debug] ::: evicted 
+[debug] :: no conflict test: org.eclipse.jetty:jetty-servlets
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-jetty9
+[debug] :: no conflict test: org.eclipse.jetty:jetty-servlet
+[debug] :: no conflict test: org.glassfish.jersey.containers:jersey-container-servlet-core
+[debug] :: no conflict test: com.fasterxml.jackson.module:jackson-module-jaxb-annotations
+[debug] :: no conflict test: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-annotation
+[debug] :: no conflict test: org.eclipse.jetty:jetty-xml
+[debug] :: no conflict test: io.dropwizard:dropwizard-logging
+[debug] :: no conflict test: org.yaml:snakeyaml
+[debug] :: merging module reports for test: org.scala-lang:scala-reflect
+[debug] ::: adds org.scala-lang:scala-reflect:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: merging module reports for test: com.thoughtworks.paranamer:paranamer
+[debug] ::: adds com.thoughtworks.paranamer:paranamer:2.8
+[debug] ::: evicted 
+[debug] :: merging module reports for test: ch.qos.logback:logback-classic
+[debug] ::: adds ch.qos.logback:logback-classic:1.2.3
+[debug] ::: evicted 
+[debug] :: no conflict test: org.eclipse.jetty:jetty-continuation
+[debug] :: no conflict test: org.eclipse.jetty:jetty-security
+[debug] :: no conflict test: org.glassfish.jersey.core:jersey-server
+[debug] :: no conflict test: org.slf4j:jcl-over-slf4j
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-logback
+[debug] :: no conflict test: io.dropwizard:dropwizard-validation
+[debug] :: no conflict test: io.dropwizard:dropwizard-jackson
+[debug] :: no conflict test: org.slf4j:jul-to-slf4j
+[debug] :: no conflict test: org.slf4j:log4j-over-slf4j
+[debug] :: merging module reports for test: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.slf4j:slf4j-api
+[debug] ::: adds org.slf4j:slf4j-api:1.7.25
+[debug] ::: evicted 
+[debug] :: merging module reports for test: ch.qos.logback:logback-core
+[debug] ::: adds ch.qos.logback:logback-core:1.2.3
+[debug] ::: evicted 
+[debug] :: merging module reports for test: com.fasterxml.jackson.datatype:jackson-datatype-joda
+[debug] ::: adds com.fasterxml.jackson.datatype:jackson-datatype-joda:2.9.2
+[debug] ::: evicted 
+[debug] :: no conflict test: org.glassfish.jersey.media:jersey-media-jaxb
+[debug] :: no conflict test: org.glassfish.jersey.core:jersey-client
+[debug] :: no conflict test: org.eclipse.jetty:jetty-server
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-core
+[debug] :: no conflict test: org.glassfish:javax.el
+[debug] :: no conflict test: org.hibernate:hibernate-validator
+[debug] :: no conflict test: com.fasterxml.jackson.module:jackson-module-afterburner
+[debug] :: no conflict test: com.fasterxml.jackson.module:jackson-module-parameter-names
+[debug] :: no conflict test: com.fasterxml.jackson.datatype:jackson-datatype-jdk8
+[debug] :: no conflict test: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+[debug] :: no conflict test: com.fasterxml.jackson.datatype:jackson-datatype-guava
+[debug] :: no conflict test: io.dropwizard:dropwizard-util
+[debug] :: merging module reports for test: joda-time:joda-time
+[debug] ::: adds joda-time:joda-time:2.9.9
+[debug] ::: evicted 
+[debug] :: merging module reports for test: com.fasterxml.jackson.core:jackson-databind
+[debug] ::: adds com.fasterxml.jackson.core:jackson-databind:2.9.2
+[debug] ::: evicted 
+[debug] :: no conflict test: com.google.guava:guava
+[debug] :: no conflict test: org.glassfish.jersey.core:jersey-common
+[debug] :: no conflict test: org.eclipse.jetty:jetty-http
+[debug] :: no conflict test: com.fasterxml:classmate
+[debug] :: no conflict test: org.jboss.logging:jboss-logging
+[debug] :: no conflict test: javax.validation:validation-api
+[debug] :: no conflict test: javax.servlet:javax.servlet-api
+[debug] :: merging module reports for test: com.fasterxml.jackson.core:jackson-annotations
+[debug] ::: adds com.fasterxml.jackson.core:jackson-annotations:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for test: com.fasterxml.jackson.core:jackson-core
+[debug] ::: adds com.fasterxml.jackson.core:jackson-core:2.9.2
+[debug] ::: evicted 
+[debug] :: no conflict test: org.codehaus.mojo:animal-sniffer-annotations
+[debug] :: no conflict test: com.google.j2objc:j2objc-annotations
+[debug] :: no conflict test: com.google.errorprone:error_prone_annotations
+[debug] :: no conflict test: org.checkerframework:checker-qual
+[debug] :: no conflict test: org.glassfish.hk2:hk2-locator
+[debug] :: no conflict test: org.glassfish.hk2:osgi-resource-locator
+[debug] :: no conflict test: org.glassfish.jersey.bundles.repackaged:jersey-guava
+[debug] :: no conflict test: javax.annotation:javax.annotation-api
+[debug] :: no conflict test: javax.ws.rs:javax.ws.rs-api
+[debug] :: no conflict test: org.eclipse.jetty:jetty-io
+[debug] :: no conflict test: com.google.code.findbugs:jsr305
+[debug] :: no conflict test: org.javassist:javassist
+[debug] :: no conflict test: org.glassfish.hk2.external:javax.inject
+[debug] :: no conflict test: org.glassfish.hk2:hk2-api
+[debug] :: no conflict test: org.eclipse.jetty:jetty-util
+[debug] :: no conflict test: org.glassfish.hk2.external:aopalliance-repackaged
+[debug] :: no conflict test: org.glassfish.hk2:hk2-utils
+[debug] ::: -----------
+[debug] :: provided: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: optional: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: compile-internal: loop: List()
+[debug] :: sort result: com.allangray.common:common-interfaces, com.oracle:ojdbc6, com.allangray.common:common-primitives, org.squeryl:squeryl_2.12, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, org.scala-lang.modules:scala-xml_2.12, org.json4s:json4s-scalap_2.12, cglib:cglib-nodep, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict compile-internal: com.allangray.common:common-interfaces
+[debug] :: no conflict compile-internal: com.oracle:ojdbc6
+[debug] :: merging module reports for compile-internal: com.allangray.common:common-primitives
+[debug] ::: adds com.allangray.common:common-primitives:7.0.1
+[debug] ::: evicted 
+[debug] :: no conflict compile-internal: org.squeryl:squeryl_2.12
+[debug] :: merging module reports for compile-internal: io.swagger:swagger-annotations
+[debug] ::: adds io.swagger:swagger-annotations:1.5.17
+[debug] ::: evicted 
+[debug] :: merging module reports for compile-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] ::: adds com.fasterxml.jackson.module:jackson-module-scala_2.12:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for compile-internal: joda-time:joda-time
+[debug] ::: adds joda-time:joda-time:2.9.9
+[debug] ::: evicted 
+[debug] :: no conflict compile-internal: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict compile-internal: org.json4s:json4s-scalap_2.12
+[debug] :: no conflict compile-internal: cglib:cglib-nodep
+[debug] :: merging module reports for compile-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] ::: adds com.fasterxml.jackson.module:jackson-module-paranamer:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for compile-internal: org.scala-lang:scala-reflect
+[debug] ::: adds org.scala-lang:scala-reflect:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: merging module reports for compile-internal: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: merging module reports for compile-internal: com.thoughtworks.paranamer:paranamer
+[debug] ::: adds com.thoughtworks.paranamer:paranamer:2.8
+[debug] ::: evicted 
+[debug] :: merging module reports for compile-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] ::: adds com.fasterxml.jackson.core:jackson-databind:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for compile-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] ::: adds com.fasterxml.jackson.core:jackson-annotations:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for compile-internal: com.fasterxml.jackson.core:jackson-core
+[debug] ::: adds com.fasterxml.jackson.core:jackson-core:2.9.2
+[debug] ::: evicted 
+[debug] ::: -----------
+[debug] :: runtime-internal: loop: List()
+[debug] :: sort result: com.allangray.common:common-interfaces, com.oracle:ojdbc6, com.allangray.common:common-primitives, org.squeryl:squeryl_2.12, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, org.scala-lang.modules:scala-xml_2.12, org.json4s:json4s-scalap_2.12, cglib:cglib-nodep, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict runtime-internal: com.allangray.common:common-interfaces
+[debug] :: no conflict runtime-internal: com.oracle:ojdbc6
+[debug] :: merging module reports for runtime-internal: com.allangray.common:common-primitives
+[debug] ::: adds com.allangray.common:common-primitives:7.0.1
+[debug] ::: evicted 
+[debug] :: no conflict runtime-internal: org.squeryl:squeryl_2.12
+[debug] :: merging module reports for runtime-internal: io.swagger:swagger-annotations
+[debug] ::: adds io.swagger:swagger-annotations:1.5.17
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] ::: adds com.fasterxml.jackson.module:jackson-module-scala_2.12:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime-internal: joda-time:joda-time
+[debug] ::: adds joda-time:joda-time:2.9.9
+[debug] ::: evicted 
+[debug] :: no conflict runtime-internal: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict runtime-internal: org.json4s:json4s-scalap_2.12
+[debug] :: no conflict runtime-internal: cglib:cglib-nodep
+[debug] :: merging module reports for runtime-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] ::: adds com.fasterxml.jackson.module:jackson-module-paranamer:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime-internal: org.scala-lang:scala-reflect
+[debug] ::: adds org.scala-lang:scala-reflect:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime-internal: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime-internal: com.thoughtworks.paranamer:paranamer
+[debug] ::: adds com.thoughtworks.paranamer:paranamer:2.8
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] ::: adds com.fasterxml.jackson.core:jackson-databind:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] ::: adds com.fasterxml.jackson.core:jackson-annotations:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime-internal: com.fasterxml.jackson.core:jackson-core
+[debug] ::: adds com.fasterxml.jackson.core:jackson-core:2.9.2
+[debug] ::: evicted 
+[debug] ::: -----------
+[debug] :: test-internal: loop: List()
+[debug] :: sort result: com.oracle:ojdbc6, com.allangray.common:common-implementations, com.allangray.common:common-test-implementations, net.sourceforge.jtds:jtds, org.flywaydb:flyway-core, commons-io:commons-io, org.apache.httpcomponents:httpmime, com.h2database:h2, com.allangray.common:common-rest, org.springframework:spring-context, com.allangray.common:common-shared-implementations, org.mockito:mockito-core, org.apache.httpcomponents:httpclient, org.glassfish.jersey.media:jersey-media-multipart, io.jsonwebtoken:jjwt, com.thoughtworks.xstream:xstream, io.swagger:swagger-jaxrs, io.swagger:swagger-scala-module_2.12, io.dropwizard:dropwizard-auth, com.allangray.common:common-interfaces, org.springframework:spring-expression, org.springframework:spring-aop, com.googlecode.json-simple:json-simple, com.mchange:c3p0, org.objenesis:objenesis, net.bytebuddy:byte-buddy-agent, net.bytebuddy:byte-buddy, org.joda:joda-convert, commons-codec:commons-codec, org.apache.httpcomponents:httpcore, org.jvnet.mimepull:mimepull, xpp3:xpp3_min, xmlpull:xmlpull, org.reflections:reflections, io.swagger:swagger-core, javax.ws.rs:jsr311-api, io.dropwizard:dropwizard-core, com.allangray.common:common-primitives, org.squeryl:squeryl_2.12, org.springframework:spring-beans, com.mchange:mchange-commons-java, io.swagger:swagger-models, org.eclipse.jetty.toolchain.setuid:jetty-setuid-java, net.sourceforge.argparse4j:argparse4j, io.dropwizard:dropwizard-request-logging, io.dropwizard.metrics:metrics-servlets, io.dropwizard:dropwizard-servlets, io.dropwizard:dropwizard-jersey, io.dropwizard:dropwizard-metrics, io.dropwizard:dropwizard-configuration, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, org.json4s:json4s-scalap_2.12, cglib:cglib-nodep, org.springframework:spring-core, org.apache.commons:commons-lang3, org.scalatest:scalatest_2.12, junit:junit, ch.qos.logback:logback-access, com.papertrail:profiler, io.dropwizard.metrics:metrics-json, io.dropwizard.metrics:metrics-healthchecks, io.dropwizard.metrics:metrics-jvm, io.dropwizard:dropwizard-jetty, org.eclipse.jetty:jetty-webapp, org.glassfish.jersey.containers:jersey-container-servlet, com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider, io.dropwizard.metrics:metrics-jersey2, org.glassfish.jersey.ext:jersey-bean-validation, org.glassfish.jersey.ext:jersey-metainf-services, io.dropwizard:dropwizard-lifecycle, com.fasterxml.jackson.dataformat:jackson-dataformat-yaml, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang.modules:scala-xml_2.12, org.springframework:spring-jcl, org.hamcrest:hamcrest-core, org.scala-lang.modules:scala-parser-combinators_2.12, org.scalactic:scalactic_2.12, org.eclipse.jetty:jetty-servlets, io.dropwizard.metrics:metrics-jetty9, org.eclipse.jetty:jetty-servlet, org.glassfish.jersey.containers:jersey-container-servlet-core, com.fasterxml.jackson.module:jackson-module-jaxb-annotations, com.fasterxml.jackson.jaxrs:jackson-jaxrs-base, io.dropwizard.metrics:metrics-annotation, org.eclipse.jetty:jetty-xml, io.dropwizard:dropwizard-logging, org.yaml:snakeyaml, org.scala-lang:scala-reflect, com.thoughtworks.paranamer:paranamer, ch.qos.logback:logback-classic, org.eclipse.jetty:jetty-continuation, org.eclipse.jetty:jetty-security, org.glassfish.jersey.core:jersey-server, org.slf4j:jcl-over-slf4j, io.dropwizard.metrics:metrics-logback, io.dropwizard:dropwizard-validation, io.dropwizard:dropwizard-jackson, org.slf4j:jul-to-slf4j, org.slf4j:log4j-over-slf4j, org.scala-lang:scala-library, org.slf4j:slf4j-api, ch.qos.logback:logback-core, com.fasterxml.jackson.datatype:jackson-datatype-joda, org.glassfish.jersey.media:jersey-media-jaxb, org.glassfish.jersey.core:jersey-client, org.eclipse.jetty:jetty-server, io.dropwizard.metrics:metrics-core, org.glassfish:javax.el, org.hibernate:hibernate-validator, com.fasterxml.jackson.module:jackson-module-afterburner, com.fasterxml.jackson.module:jackson-module-parameter-names, com.fasterxml.jackson.datatype:jackson-datatype-jdk8, com.fasterxml.jackson.datatype:jackson-datatype-jsr310, com.fasterxml.jackson.datatype:jackson-datatype-guava, io.dropwizard:dropwizard-util, joda-time:joda-time, com.fasterxml.jackson.core:jackson-databind, com.google.guava:guava, org.glassfish.jersey.core:jersey-common, org.eclipse.jetty:jetty-http, com.fasterxml:classmate, org.jboss.logging:jboss-logging, javax.validation:validation-api, javax.servlet:javax.servlet-api, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core, org.codehaus.mojo:animal-sniffer-annotations, com.google.j2objc:j2objc-annotations, com.google.errorprone:error_prone_annotations, org.checkerframework:checker-qual, org.glassfish.hk2:hk2-locator, org.glassfish.hk2:osgi-resource-locator, org.glassfish.jersey.bundles.repackaged:jersey-guava, javax.annotation:javax.annotation-api, javax.ws.rs:javax.ws.rs-api, org.eclipse.jetty:jetty-io, com.google.code.findbugs:jsr305, org.javassist:javassist, org.glassfish.hk2.external:javax.inject, org.glassfish.hk2:hk2-api, org.eclipse.jetty:jetty-util, org.glassfish.hk2.external:aopalliance-repackaged, org.glassfish.hk2:hk2-utils
+[debug] :: no conflict test-internal: com.oracle:ojdbc6
+[debug] :: no conflict test-internal: com.allangray.common:common-implementations
+[debug] :: merging module reports for test-internal: com.allangray.common:common-test-implementations
+[debug] ::: adds com.allangray.common:common-test-implementations:20.0.5
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: net.sourceforge.jtds:jtds
+[debug] ::: adds net.sourceforge.jtds:jtds:1.3.1
+[debug] ::: evicted 
+[debug] :: no conflict test-internal: org.flywaydb:flyway-core
+[debug] :: no conflict test-internal: commons-io:commons-io
+[debug] :: no conflict test-internal: org.apache.httpcomponents:httpmime
+[debug] :: no conflict test-internal: com.h2database:h2
+[debug] :: no conflict test-internal: com.allangray.common:common-rest
+[debug] :: merging module reports for test-internal: org.springframework:spring-context
+[debug] ::: adds org.springframework:spring-context:5.0.2.RELEASE
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: com.allangray.common:common-shared-implementations
+[debug] ::: adds com.allangray.common:common-shared-implementations:20.0.5
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.mockito:mockito-core
+[debug] ::: adds org.mockito:mockito-core:2.13.0
+[debug] ::: evicted 
+[debug] :: no conflict test-internal: org.apache.httpcomponents:httpclient
+[debug] :: no conflict test-internal: org.glassfish.jersey.media:jersey-media-multipart
+[debug] :: no conflict test-internal: io.jsonwebtoken:jjwt
+[debug] :: no conflict test-internal: com.thoughtworks.xstream:xstream
+[debug] :: no conflict test-internal: io.swagger:swagger-jaxrs
+[debug] :: no conflict test-internal: io.swagger:swagger-scala-module_2.12
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-auth
+[debug] :: merging module reports for test-internal: com.allangray.common:common-interfaces
+[debug] ::: adds com.allangray.common:common-interfaces:20.0.5
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.springframework:spring-expression
+[debug] ::: adds org.springframework:spring-expression:5.0.2.RELEASE
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.springframework:spring-aop
+[debug] ::: adds org.springframework:spring-aop:5.0.2.RELEASE
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: com.googlecode.json-simple:json-simple
+[debug] ::: adds com.googlecode.json-simple:json-simple:1.1.1
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: com.mchange:c3p0
+[debug] ::: adds com.mchange:c3p0:0.9.5
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.objenesis:objenesis
+[debug] ::: adds org.objenesis:objenesis:2.6
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: net.bytebuddy:byte-buddy-agent
+[debug] ::: adds net.bytebuddy:byte-buddy-agent:1.7.9
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: net.bytebuddy:byte-buddy
+[debug] ::: adds net.bytebuddy:byte-buddy:1.7.9
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.joda:joda-convert
+[debug] ::: adds org.joda:joda-convert:1.9.2
+[debug] ::: evicted 
+[debug] :: no conflict test-internal: commons-codec:commons-codec
+[debug] :: no conflict test-internal: org.apache.httpcomponents:httpcore
+[debug] :: no conflict test-internal: org.jvnet.mimepull:mimepull
+[debug] :: no conflict test-internal: xpp3:xpp3_min
+[debug] :: no conflict test-internal: xmlpull:xmlpull
+[debug] :: no conflict test-internal: org.reflections:reflections
+[debug] :: no conflict test-internal: io.swagger:swagger-core
+[debug] :: no conflict test-internal: javax.ws.rs:jsr311-api
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-core
+[debug] :: merging module reports for test-internal: com.allangray.common:common-primitives
+[debug] ::: adds com.allangray.common:common-primitives:7.0.1
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.squeryl:squeryl_2.12
+[debug] ::: adds org.squeryl:squeryl_2.12:0.9.9
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.springframework:spring-beans
+[debug] ::: adds org.springframework:spring-beans:5.0.2.RELEASE
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: com.mchange:mchange-commons-java
+[debug] ::: adds com.mchange:mchange-commons-java:0.2.9
+[debug] ::: evicted 
+[debug] :: no conflict test-internal: io.swagger:swagger-models
+[debug] :: no conflict test-internal: org.eclipse.jetty.toolchain.setuid:jetty-setuid-java
+[debug] :: no conflict test-internal: net.sourceforge.argparse4j:argparse4j
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-request-logging
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-servlets
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-servlets
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-jersey
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-metrics
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-configuration
+[debug] :: merging module reports for test-internal: io.swagger:swagger-annotations
+[debug] ::: adds io.swagger:swagger-annotations:1.5.17
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] ::: adds com.fasterxml.jackson.module:jackson-module-scala_2.12:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.json4s:json4s-scalap_2.12
+[debug] ::: adds org.json4s:json4s-scalap_2.12:3.5.2
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: cglib:cglib-nodep
+[debug] ::: adds cglib:cglib-nodep:3.2.5
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.springframework:spring-core
+[debug] ::: adds org.springframework:spring-core:5.0.2.RELEASE
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.apache.commons:commons-lang3
+[debug] ::: adds org.apache.commons:commons-lang3:3.7
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.scalatest:scalatest_2.12
+[debug] ::: adds org.scalatest:scalatest_2.12:3.0.4
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: junit:junit
+[debug] ::: resolving conflict in test-internal:junit:junit (junit:junit:4.10, junit:junit:4.12)
+[debug] ::: adds junit:junit:4.12
+[debug] ::: evicted junit:junit:4.10
+[debug] :::: transitively evicted test-internal: org.hamcrest:hamcrest-core:1.1
+[debug] :: no conflict test-internal: ch.qos.logback:logback-access
+[debug] :: no conflict test-internal: com.papertrail:profiler
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-json
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-healthchecks
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-jvm
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-jetty
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-webapp
+[debug] :: no conflict test-internal: org.glassfish.jersey.containers:jersey-container-servlet
+[debug] :: no conflict test-internal: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-jersey2
+[debug] :: no conflict test-internal: org.glassfish.jersey.ext:jersey-bean-validation
+[debug] :: no conflict test-internal: org.glassfish.jersey.ext:jersey-metainf-services
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-lifecycle
+[debug] :: no conflict test-internal: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+[debug] :: merging module reports for test-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] ::: adds com.fasterxml.jackson.module:jackson-module-paranamer:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.scala-lang.modules:scala-xml_2.12
+[debug] ::: adds org.scala-lang.modules:scala-xml_2.12:1.0.6
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.springframework:spring-jcl
+[debug] ::: adds org.springframework:spring-jcl:5.0.2.RELEASE
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.hamcrest:hamcrest-core
+[debug] ::: adds org.hamcrest:hamcrest-core:1.3
+[debug] ::: evicted org.hamcrest:hamcrest-core:1.1
+[debug] :: merging module reports for test-internal: org.scala-lang.modules:scala-parser-combinators_2.12
+[debug] ::: resolving conflict in test-internal:org.scala-lang.modules:scala-parser-combinators_2.12 (org.scala-lang.modules:scala-parser-combinators_2.12:1.0.6, org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4)
+[debug] ::: adds org.scala-lang.modules:scala-parser-combinators_2.12:1.0.6
+[debug] ::: evicted org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4
+[debug] :: merging module reports for test-internal: org.scalactic:scalactic_2.12
+[debug] ::: adds org.scalactic:scalactic_2.12:3.0.4
+[debug] ::: evicted 
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-servlets
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-jetty9
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-servlet
+[debug] :: no conflict test-internal: org.glassfish.jersey.containers:jersey-container-servlet-core
+[debug] :: no conflict test-internal: com.fasterxml.jackson.module:jackson-module-jaxb-annotations
+[debug] :: no conflict test-internal: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-annotation
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-xml
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-logging
+[debug] :: no conflict test-internal: org.yaml:snakeyaml
+[debug] :: merging module reports for test-internal: org.scala-lang:scala-reflect
+[debug] ::: adds org.scala-lang:scala-reflect:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: com.thoughtworks.paranamer:paranamer
+[debug] ::: adds com.thoughtworks.paranamer:paranamer:2.8
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: ch.qos.logback:logback-classic
+[debug] ::: adds ch.qos.logback:logback-classic:1.2.3
+[debug] ::: evicted 
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-continuation
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-security
+[debug] :: no conflict test-internal: org.glassfish.jersey.core:jersey-server
+[debug] :: no conflict test-internal: org.slf4j:jcl-over-slf4j
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-logback
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-validation
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-jackson
+[debug] :: no conflict test-internal: org.slf4j:jul-to-slf4j
+[debug] :: no conflict test-internal: org.slf4j:log4j-over-slf4j
+[debug] :: merging module reports for test-internal: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.slf4j:slf4j-api
+[debug] ::: adds org.slf4j:slf4j-api:1.7.25
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: ch.qos.logback:logback-core
+[debug] ::: adds ch.qos.logback:logback-core:1.2.3
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: com.fasterxml.jackson.datatype:jackson-datatype-joda
+[debug] ::: adds com.fasterxml.jackson.datatype:jackson-datatype-joda:2.9.2
+[debug] ::: evicted 
+[debug] :: no conflict test-internal: org.glassfish.jersey.media:jersey-media-jaxb
+[debug] :: no conflict test-internal: org.glassfish.jersey.core:jersey-client
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-server
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-core
+[debug] :: no conflict test-internal: org.glassfish:javax.el
+[debug] :: no conflict test-internal: org.hibernate:hibernate-validator
+[debug] :: no conflict test-internal: com.fasterxml.jackson.module:jackson-module-afterburner
+[debug] :: no conflict test-internal: com.fasterxml.jackson.module:jackson-module-parameter-names
+[debug] :: no conflict test-internal: com.fasterxml.jackson.datatype:jackson-datatype-jdk8
+[debug] :: no conflict test-internal: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+[debug] :: no conflict test-internal: com.fasterxml.jackson.datatype:jackson-datatype-guava
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-util
+[debug] :: merging module reports for test-internal: joda-time:joda-time
+[debug] ::: adds joda-time:joda-time:2.9.9
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] ::: adds com.fasterxml.jackson.core:jackson-databind:2.9.2
+[debug] ::: evicted 
+[debug] :: no conflict test-internal: com.google.guava:guava
+[debug] :: no conflict test-internal: org.glassfish.jersey.core:jersey-common
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-http
+[debug] :: no conflict test-internal: com.fasterxml:classmate
+[debug] :: no conflict test-internal: org.jboss.logging:jboss-logging
+[debug] :: no conflict test-internal: javax.validation:validation-api
+[debug] :: no conflict test-internal: javax.servlet:javax.servlet-api
+[debug] :: merging module reports for test-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] ::: adds com.fasterxml.jackson.core:jackson-annotations:2.9.2
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: com.fasterxml.jackson.core:jackson-core
+[debug] ::: adds com.fasterxml.jackson.core:jackson-core:2.9.2
+[debug] ::: evicted 
+[debug] :: no conflict test-internal: org.codehaus.mojo:animal-sniffer-annotations
+[debug] :: no conflict test-internal: com.google.j2objc:j2objc-annotations
+[debug] :: no conflict test-internal: com.google.errorprone:error_prone_annotations
+[debug] :: no conflict test-internal: org.checkerframework:checker-qual
+[debug] :: no conflict test-internal: org.glassfish.hk2:hk2-locator
+[debug] :: no conflict test-internal: org.glassfish.hk2:osgi-resource-locator
+[debug] :: no conflict test-internal: org.glassfish.jersey.bundles.repackaged:jersey-guava
+[debug] :: no conflict test-internal: javax.annotation:javax.annotation-api
+[debug] :: no conflict test-internal: javax.ws.rs:javax.ws.rs-api
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-io
+[debug] :: no conflict test-internal: com.google.code.findbugs:jsr305
+[debug] :: no conflict test-internal: org.javassist:javassist
+[debug] :: no conflict test-internal: org.glassfish.hk2.external:javax.inject
+[debug] :: no conflict test-internal: org.glassfish.hk2:hk2-api
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-util
+[debug] :: no conflict test-internal: org.glassfish.hk2.external:aopalliance-repackaged
+[debug] :: no conflict test-internal: org.glassfish.hk2:hk2-utils
+[debug] ::: -----------
+[debug] :: plugin: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: sources: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: docs: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: pom: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: scala-tool: loop: List()
+[debug] :: sort result: org.scala-lang:scala-compiler, jline:jline, org.scala-lang.modules:scala-xml_2.12, org.scala-lang:scala-reflect, org.scala-lang:scala-library
+[debug] :: no conflict scala-tool: org.scala-lang:scala-compiler
+[debug] :: no conflict scala-tool: jline:jline
+[debug] :: no conflict scala-tool: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict scala-tool: org.scala-lang:scala-reflect
+[debug] :: merging module reports for scala-tool: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] ::: -----------
+[debug] :: scoveragePlugin: loop: List()
+[debug] :: sort result: 
+[debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
+[info] Done updating.

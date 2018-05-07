@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.allangray.common:common-interfaces:20.0.5:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.allangray.common/common-interfaces/jars/common-interfaces-20.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.allangray.common/common-interfaces/srcs/common-interfaces-20.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

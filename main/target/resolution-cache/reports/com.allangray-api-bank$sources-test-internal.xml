@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-resolve-c0d6169a55470437ae84f642fa6ce4440ef5b0f4"
+		revision="1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
+		date="20180206151402"/>
+	<dependencies>
+		<module organisation="com.mchange" name="mchange-commons-java">
+			<revision name="0.2.9" status="release" pubdate="20180110154525" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/swaldman/mchange-commons-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="GNU Lesser General Public License, Version 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<license name="Eclipse Public License, Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3505" time="0" location="/home/dev/.ivy2/cache/com.mchange/mchange-commons-java/ivy-0.2.9.xml" searched="false" origin-is-local="false" origin-location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/mchange/mchange-commons-java/0.2.9/mchange-commons-java-0.2.9.pom"/>
+				<caller organisation="org.scala-sbt.temp" name="temp-resolve-c0d6169a55470437ae84f642fa6ce4440ef5b0f4" conf="test, compile, provided, test-internal, runtime, optional" rev="0.2.9" rev-constraint-default="0.2.9" rev-constraint-dynamic="0.2.9" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="mchange-commons-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="664318" time="0" location="/home/dev/.ivy2/cache/com.mchange/mchange-commons-java/srcs/mchange-commons-java-0.2.9-sources.jar">
+						<origin-location is-local="false" location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/mchange/mchange-commons-java/0.2.9/mchange-commons-java-0.2.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

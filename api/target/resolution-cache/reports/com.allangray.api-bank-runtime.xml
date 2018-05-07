@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-resolve-87db902be53185ddacbac3bde62aa28b165b74a0"
+		revision="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
+		date="20180206151332"/>
+	<dependencies>
+		<module organisation="com.allangray.common" name="common-primitives">
+			<revision name="7.0.1" status="release" pubdate="20171130082347" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+				<metadata-artifact status="no" details="" size="2462" time="0" location="/home/dev/.ivy2/cache/com.allangray.common/common-primitives/ivy-7.0.1.xml" searched="false" origin-is-local="false" origin-location="https://theluggage-agct.gray.net/artifactory/ivy-remote-repo/com/allangray/common/common-primitives/7.0.1/ivy-7.0.1.xml"/>
+				<caller organisation="org.scala-sbt.temp" name="temp-resolve-87db902be53185ddacbac3bde62aa28b165b74a0" conf="compile, runtime" rev="7.0.1" rev-constraint-default="7.0.1" rev-constraint-dynamic="7.0.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="common-primitives" type="jar" ext="jar" status="no" details="" size="146717" time="0" location="/home/dev/.ivy2/cache/com.allangray.common/common-primitives/jars/common-primitives-7.0.1.jar">
+						<origin-location is-local="false" location="https://theluggage-agct.gray.net/artifactory/ivy-remote-repo/com/allangray/common/common-primitives/7.0.1/common-primitives-7.0.1.jar"/>
+					</artifact>
+					<artifact name="common-primitives" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25086" time="0" location="/home/dev/.ivy2/cache/com.allangray.common/common-primitives/srcs/common-primitives-7.0.1-sources.jar">
+						<origin-location is-local="false" location="https://theluggage-agct.gray.net/artifactory/ivy-remote-repo/com/allangray/common/common-primitives/7.0.1/common-primitives-7.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.swagger" name="swagger-annotations">
+			<revision name="1.5.17" status="release" pubdate="20180110154343" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="9311" time="0" location="/home/dev/.ivy2/cache/io.swagger/swagger-annotations/ivy-1.5.17.xml" searched="false" origin-is-local="false" origin-location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/io/swagger/swagger-annotations/1.5.17/swagger-annotations-1.5.17.pom"/>
+				<caller organisation="com.allangray.common" name="common-primitives" conf="compile" rev="1.5.17" rev-constraint-default="1.5.17" rev-constraint-dynamic="1.5.17" callerrev="7.0.1"/>
+				<artifacts>
+					<artifact name="swagger-annotations" type="bundle" ext="jar" status="no" details="" size="20693" time="0" location="/home/dev/.ivy2/cache/io.swagger/swagger-annotations/bundles/swagger-annotations-1.5.17.jar">
+						<origin-location is-local="false" location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/io/swagger/swagger-annotations/1.5.17/swagger-annotations-1.5.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12">
+			<revision name="2.9.2" status="release" pubdate="20180110154305" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4217" time="0" location="/home/dev/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/ivy-2.9.2.xml" searched="false" origin-is-local="false" origin-location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.9.2/jackson-module-scala_2.12-2.9.2.pom"/>
+				<caller organisation="com.allangray.common" name="common-primitives" conf="compile" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="7.0.1"/>
+				<artifacts>
+					<artifact name="jackson-module-scala_2.12" type="bundle" ext="jar" status="no" details="" size="345137" time="0" location="/home/dev/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/bundles/jackson-module-scala_2.12-2.9.2.jar">
+						<origin-location is-local="false" location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.9.2/jackson-module-scala_2.12-2.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer">
+			<revision name="2.9.2" status="release" pubdate="20180110154315" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-modules-base" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="28816" time="0" location="/home/dev/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/ivy-2.9.2.xml" searched="false" origin-is-local="false" origin-location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/fasterxml/jackson/module/jackson-module-paranamer/2.9.2/jackson-module-paranamer-2.9.2.pom"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="default, compile, runtime, master" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.9.2"/>
+				<artifacts>
+					<artifact name="jackson-module-paranamer" type="bundle" ext="jar" status="no" details="" size="42880" time="0" location="/home/dev/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/bundles/jackson-module-paranamer-2.9.2.jar">
+						<origin-location is-local="false" location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/fasterxml/jackson/module/jackson-module-paranamer/2.9.2/jackson-module-paranamer-2.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.8" status="release" pubdate="20180110154329" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4254" time="0" location="/home/dev/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.8.xml" searched="false" origin-is-local="false" origin-location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer" conf="compile, runtime" rev="2.8" rev-constraint-default="2.8" rev-constraint-dynamic="2.8" callerrev="2.9.2"/>
+				<artifacts>
+					<artifact name="paranamer" type="bundle" ext="jar" status="no" details="" size="34654" time="0" location="/home/dev/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar">
+						<origin-location is-local="false" location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.9.2" status="release" pubdate="20180110154310" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7187" time="0" location="/home/dev/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.9.2.xml" searched="false" origin-is-local="false" origin-location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/fasterxml/jackson/core/jackson-annotations/2.9.2/jackson-annotations-2.9.2.pom"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="default, compile, runtime, master" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.9.2"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="default, compile, runtime, master" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.2"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="no" details="" size="66793" time="0" location="/home/dev/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.9.2.jar">
+						<origin-location is-local="false" location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/fasterxml/jackson/core/jackson-annotations/2.9.2/jackson-annotations-2.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.9.0" status="release" pubdate="20180110154236" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6969" time="0" location="/home/dev/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.9.0.xml" searched="false" origin-is-local="false" origin-location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.pom"/>
+				<evicted-by rev="2.9.2"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="default, compile, runtime, master" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.4" status="release" pubdate="20171011092224" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2637" time="0" location="/home/dev/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.pom"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="default, compile, runtime, master" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="2.9.2"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3587892" time="0" location="/home/dev/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.9.2" status="release" pubdate="20180110154151" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="22645" time="0" location="/home/dev/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.9.2.xml" searched="false" origin-is-local="false" origin-location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/fasterxml/jackson/core/jackson-databind/2.9.2/jackson-databind-2.9.2.pom"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="default, compile, runtime, master" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.9.2"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer" conf="compile, runtime" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.9.2"/>
+				<caller organisation="com.allangray.common" name="common-primitives" conf="compile" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="7.0.1"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="bundle" ext="jar" status="no" details="" size="1333874" time="0" location="/home/dev/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.9.2.jar">
+						<origin-location is-local="false" location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/fasterxml/jackson/core/jackson-databind/2.9.2/jackson-databind-2.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.9.2" status="release" pubdate="20180110154300" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="21933" time="0" location="/home/dev/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.9.2.xml" searched="false" origin-is-local="false" origin-location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.pom"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="default, compile, runtime, master" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.9.2"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="default, compile, runtime, master" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.9.2"/>
+				<artifacts>
+					<artifact name="jackson-core" type="bundle" ext="jar" status="no" details="" size="321243" time="0" location="/home/dev/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.9.2.jar">
+						<origin-location is-local="false" location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.9" status="release" pubdate="20180110154146" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6647" time="0" location="/home/dev/.ivy2/cache/joda-time/joda-time/ivy-2.9.9.xml" searched="false" origin-is-local="false" origin-location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom"/>
+				<caller organisation="com.allangray.common" name="common-primitives" conf="compile" rev="2.9.9" rev-constraint-default="2.9.9" rev-constraint-dynamic="2.9.9" callerrev="7.0.1"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="634048" time="0" location="/home/dev/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.9.jar">
+						<origin-location is-local="false" location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.4" status="release" pubdate="20171011090456" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/home/dev/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.pom"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="default, compile, runtime, master" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="2.9.2"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="2.12.4"/>
+				<caller organisation="com.allangray.common" name="common-primitives" conf="compile" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="7.0.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5247152" time="0" location="/home/dev/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

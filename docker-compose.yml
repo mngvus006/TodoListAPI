@@ -1,0 +1,26 @@
+version: '2.3'
+
+services:
+  api:
+    image: api-todo:local
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      swagger:
+        condition: service_started
+    ports:
+      - "3000:3000"
+    environment:
+      - TO_DO_LIST_PORT=3000
+      - DB_TODO_URL=jdbc:jtds:sqlserver://localhost/TodoListDB
+      - DB_TODO_USERNAME=SA
+      - DB_TODO_PASSWORD=Skeleton10111
+      - ENVIRONMENT_NAME=local
+  swagger:
+    image: docker-registry.public-upstream.gray.net/swaggerapi/swagger-ui:latest
+    hostname: swagger
+    ports:
+      - "80:8080"
+    environment:
+      - API_URL=http://localhost:3000/api/v1/todo/swagger.json

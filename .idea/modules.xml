@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TodoList-core.iml" filepath="$PROJECT_DIR$/.idea/modules/TodoList-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api.iml" filepath="$PROJECT_DIR$/.idea/modules/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-build.iml" filepath="$PROJECT_DIR$/.idea/modules/api-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/apiBank.iml" filepath="$PROJECT_DIR$/.idea/modules/apiBank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/apiBank-build.iml" filepath="$PROJECT_DIR$/.idea/modules/apiBank-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core.iml" filepath="$PROJECT_DIR$/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core-build.iml" filepath="$PROJECT_DIR$/.idea/modules/core-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main.iml" filepath="$PROJECT_DIR$/.idea/modules/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-build.iml" filepath="$PROJECT_DIR$/.idea/modules/main-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sync.iml" filepath="$PROJECT_DIR$/.idea/modules/sync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sync-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sync-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/todolistapi.iml" filepath="$PROJECT_DIR$/.idea/modules/todolistapi.iml" />
+    </modules>
+  </component>
+</project>

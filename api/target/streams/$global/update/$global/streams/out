@@ -1,0 +1,138 @@
+[info] Updating {file:/home/dev/IdeaProjects/TodoList/}api...
+[debug] :: building artificial module descriptors from com.allangray.api#todolist;SNAPSHOT-1.0.0
+[debug] ::: dd: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} (artifacts: )
+[debug] ::: dd: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) (artifacts: )
+[debug] ::: dd: dependency: com.allangray.common#common-primitives;7.0.1 {compile=[default(compile)]} (artifacts: )
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.scala-lang/scala-compiler/2.12.4_temp-resolve-e6b61e2d1bca99bc7c7a637f358a1f5b3866f0f9/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.scala-lang/scala-library/2.12.4_temp-resolve-44d0f7ce91447d6f0920c50ccdad2ee2d16748c1/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.allangray.common/common-primitives/7.0.1_temp-resolve-87db902be53185ddacbac3bde62aa28b165b74a0/graphs/graph.json
+[debug] :: merging update reports
+[debug] ::: -----------
+[debug] :: compile: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict compile: com.allangray.common:common-primitives
+[debug] :: no conflict compile: io.swagger:swagger-annotations
+[debug] :: no conflict compile: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict compile: joda-time:joda-time
+[debug] :: no conflict compile: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict compile: org.scala-lang:scala-reflect
+[debug] :: merging module reports for compile: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: no conflict compile: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict compile: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict compile: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict compile: com.fasterxml.jackson.core:jackson-core
+[debug] ::: -----------
+[debug] :: runtime: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict runtime: com.allangray.common:common-primitives
+[debug] :: no conflict runtime: io.swagger:swagger-annotations
+[debug] :: no conflict runtime: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict runtime: joda-time:joda-time
+[debug] :: no conflict runtime: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict runtime: org.scala-lang:scala-reflect
+[debug] :: merging module reports for runtime: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: no conflict runtime: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict runtime: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict runtime: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict runtime: com.fasterxml.jackson.core:jackson-core
+[debug] ::: -----------
+[debug] :: test: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict test: com.allangray.common:common-primitives
+[debug] :: no conflict test: io.swagger:swagger-annotations
+[debug] :: no conflict test: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict test: joda-time:joda-time
+[debug] :: no conflict test: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict test: org.scala-lang:scala-reflect
+[debug] :: merging module reports for test: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: no conflict test: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict test: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict test: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict test: com.fasterxml.jackson.core:jackson-core
+[debug] ::: -----------
+[debug] :: provided: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: optional: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: compile-internal: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict compile-internal: com.allangray.common:common-primitives
+[debug] :: no conflict compile-internal: io.swagger:swagger-annotations
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict compile-internal: joda-time:joda-time
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict compile-internal: org.scala-lang:scala-reflect
+[debug] :: merging module reports for compile-internal: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: no conflict compile-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.core:jackson-core
+[debug] ::: -----------
+[debug] :: runtime-internal: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict runtime-internal: com.allangray.common:common-primitives
+[debug] :: no conflict runtime-internal: io.swagger:swagger-annotations
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict runtime-internal: joda-time:joda-time
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict runtime-internal: org.scala-lang:scala-reflect
+[debug] :: merging module reports for runtime-internal: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: no conflict runtime-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-core
+[debug] ::: -----------
+[debug] :: test-internal: loop: List()
+[debug] :: sort result: com.allangray.common:common-primitives, io.swagger:swagger-annotations, com.fasterxml.jackson.module:jackson-module-scala_2.12, joda-time:joda-time, com.fasterxml.jackson.module:jackson-module-paranamer, org.scala-lang:scala-reflect, org.scala-lang:scala-library, com.thoughtworks.paranamer:paranamer, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-annotations, com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict test-internal: com.allangray.common:common-primitives
+[debug] :: no conflict test-internal: io.swagger:swagger-annotations
+[debug] :: no conflict test-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict test-internal: joda-time:joda-time
+[debug] :: no conflict test-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict test-internal: org.scala-lang:scala-reflect
+[debug] :: merging module reports for test-internal: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] :: no conflict test-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict test-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict test-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict test-internal: com.fasterxml.jackson.core:jackson-core
+[debug] ::: -----------
+[debug] :: plugin: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: sources: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: docs: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: pom: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: scala-tool: loop: List()
+[debug] :: sort result: org.scala-lang:scala-compiler, jline:jline, org.scala-lang.modules:scala-xml_2.12, org.scala-lang:scala-reflect, org.scala-lang:scala-library
+[debug] :: no conflict scala-tool: org.scala-lang:scala-compiler
+[debug] :: no conflict scala-tool: jline:jline
+[debug] :: no conflict scala-tool: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict scala-tool: org.scala-lang:scala-reflect
+[debug] :: merging module reports for scala-tool: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.4 ()
+[debug] ::: evicted 
+[debug] ::: -----------
+[debug] :: scoveragePlugin: loop: List()
+[debug] :: sort result: 
+[debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
+[info] Done updating.

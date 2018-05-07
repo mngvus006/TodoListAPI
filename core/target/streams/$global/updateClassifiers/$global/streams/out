@@ -1,0 +1,633 @@
+[debug] :: building artificial module descriptors from com.allangray#todolist-core$sources;1.0.0
+[debug] ::: dd: dependency: xpp3#xpp3_min;1.1.4c {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: xpp3_min:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.jersey.ext#jersey-bean-validation;2.25.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jersey-bean-validation:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.springframework#spring-expression;5.0.2.RELEASE {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: spring-expression:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.allangray.common#common-test-implementations;20.0.5 {test=[compile, default(compile)], test-internal=[compile, default(compile)]} (artifacts: common-test-implementations:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.allangray.common#common-implementations;20.0.5 {test=[test, compile, runtime], test-internal=[test, compile, runtime]} (artifacts: common-implementations:jar:jar:{classifier=tests},common-implementations:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.jersey.containers#jersey-container-servlet;2.25.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jersey-container-servlet:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.reflections#reflections;0.9.11 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: reflections:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.thoughtworks.paranamer#paranamer;2.8 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: paranamer:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.eclipse.jetty#jetty-servlets;9.4.7.v20170914 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jetty-servlets:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: javax.ws.rs#jsr311-api;1.1.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jsr311-api:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.google.j2objc#j2objc-annotations;1.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: j2objc-annotations:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.eclipse.jetty#jetty-xml;9.4.7.v20170914 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jetty-xml:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard#dropwizard-jersey;1.2.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: dropwizard-jersey:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.papertrail#profiler;1.0.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: profiler:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.springframework#spring-aop;5.0.2.RELEASE {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: spring-aop:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang#scala-library;2.12.4 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} (artifacts: scala-library:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.core#jackson-annotations;2.9.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jackson-annotations:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard.metrics#metrics-json;3.2.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: metrics-json:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.jsonwebtoken#jjwt;0.9.0 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: jjwt:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: ch.qos.logback#logback-access;1.2.3 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: logback-access:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.thoughtworks.xstream#xstream;1.4.10 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: xstream:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.slf4j#jul-to-slf4j;1.7.25 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jul-to-slf4j:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.eclipse.jetty#jetty-util;9.4.7.v20170914 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jetty-util:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.jersey.containers#jersey-container-servlet-core;2.25.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jersey-container-servlet-core:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.swagger#swagger-annotations;1.5.17 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: swagger-annotations:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.allangray.common#common-primitives;7.0.1 {compile=[compile, default(compile)], runtime=[compile, default(compile)], test=[compile, default(compile)], compile-internal=[compile, default(compile)], runtime-internal=[compile, default(compile)], test-internal=[compile, default(compile)]} (artifacts: common-primitives:src:jar:{classifier=sources},common-primitives:jar:jar:{classifier=tests})
+[debug] ::: dd: dependency: org.scalatest#scalatest_2.12;3.0.4 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: scalatest_2.12:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: net.bytebuddy#byte-buddy;1.7.9 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: byte-buddy:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.apache.httpcomponents#httpmime;4.5.4 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: httpmime:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard#dropwizard-configuration;1.2.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: dropwizard-configuration:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.slf4j#log4j-over-slf4j;1.7.25 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: log4j-over-slf4j:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: net.bytebuddy#byte-buddy-agent;1.7.9 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: byte-buddy-agent:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scalactic#scalactic_2.12;3.0.4 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scalactic_2.12:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.google.code.findbugs#jsr305;3.0.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jsr305:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.datatype#jackson-datatype-guava;2.9.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jackson-datatype-guava:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} (artifacts: scala-xml_2.12:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.module#jackson-module-afterburner;2.9.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jackson-module-afterburner:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.jvnet.mimepull#mimepull;1.9.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: mimepull:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard#dropwizard-jetty;1.2.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: dropwizard-jetty:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.squeryl#squeryl_2.12;0.9.9 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: squeryl_2.12:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard#dropwizard-util;1.2.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: dropwizard-util:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.core#jackson-databind;2.9.2 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]} (artifacts: jackson-databind:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.9.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jackson-datatype-jsr310:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.yaml#snakeyaml;1.18 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: snakeyaml:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.codehaus.mojo#animal-sniffer-annotations;1.14 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: animal-sniffer-annotations:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.jersey.core#jersey-common;2.25.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jersey-common:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.springframework#spring-beans;5.0.2.RELEASE {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: spring-beans:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard#dropwizard-validation;1.2.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: dropwizard-validation:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.googlecode.json-simple#json-simple;1.1.1 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: json-simple:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.hk2#hk2-utils;2.5.0-b32 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: hk2-utils:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard.metrics#metrics-jvm;3.2.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: metrics-jvm:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.eclipse.jetty#jetty-http;9.4.7.v20170914 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jetty-http:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard#dropwizard-servlets;1.2.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: dropwizard-servlets:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.module#jackson-module-jaxb-annotations;2.9.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jackson-module-jaxb-annotations:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard#dropwizard-logging;1.2.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: dropwizard-logging:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: javax.ws.rs#javax.ws.rs-api;2.0.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: javax.ws.rs-api:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.swagger#swagger-models;1.5.17 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: swagger-models:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.hk2#hk2-locator;2.5.0-b32 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: hk2-locator:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.jersey.core#jersey-server;2.25.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jersey-server:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.apache.httpcomponents#httpcore;4.4.7 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: httpcore:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.eclipse.jetty#jetty-server;9.4.7.v20170914 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jetty-server:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard.metrics#metrics-logback;3.2.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: metrics-logback:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.google.guava#guava;23.5-jre {test=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)]} (artifacts: guava:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard#dropwizard-request-logging;1.2.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: dropwizard-request-logging:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.jersey.bundles.repackaged#jersey-guava;2.25.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jersey-guava:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.dataformat#jackson-dataformat-yaml;2.9.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jackson-dataformat-yaml:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: ch.qos.logback#logback-classic;1.2.3 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: logback-classic:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.core#jackson-core;2.9.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jackson-core:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: joda-time#joda-time;2.9.9 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: joda-time:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.eclipse.jetty#jetty-continuation;9.4.7.v20170914 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jetty-continuation:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: cglib#cglib-nodep;3.2.5 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: cglib-nodep:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.slf4j#slf4j-api;1.7.25 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: slf4j-api:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.mockito#mockito-core;2.13.0 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: mockito-core:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.allangray.common#common-rest;20.0.5 {test=[compile, default(compile)], test-internal=[compile, default(compile)]} (artifacts: common-rest:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.javassist#javassist;3.21.0-GA {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: javassist:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.checkerframework#checker-qual;2.0.0 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: checker-qual:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard.metrics#metrics-jersey2;3.2.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: metrics-jersey2:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.eclipse.jetty#jetty-servlet;9.4.7.v20170914 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jetty-servlet:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard.metrics#metrics-core;3.2.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: metrics-core:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.allangray.common#common-interfaces;20.0.5 {compile=[compile, default(compile)], runtime=[compile, default(compile)], test=[compile, default(compile)], compile-internal=[compile, default(compile)], runtime-internal=[compile, default(compile)], test-internal=[compile, default(compile)]} (artifacts: common-interfaces:src:jar:{classifier=sources},common-interfaces:jar:jar:{classifier=tests})
+[debug] ::: dd: dependency: io.dropwizard.metrics#metrics-annotation;3.2.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: metrics-annotation:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.eclipse.jetty#jetty-security;9.4.7.v20170914 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jetty-security:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml#classmate;1.3.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: classmate:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.hibernate#hibernate-validator;5.4.1.Final {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: hibernate-validator:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} (artifacts: scala-reflect:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.hk2.external#javax.inject;2.5.0-b32 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: javax.inject:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.jaxrs#jackson-jaxrs-base;2.9.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jackson-jaxrs-base:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.jersey.ext#jersey-metainf-services;2.25.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jersey-metainf-services:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.apache.httpcomponents#httpclient;4.5.4 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: httpclient:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard.metrics#metrics-healthchecks;3.2.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: metrics-healthchecks:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.9.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jackson-datatype-jdk8:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6 {test=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)]} (artifacts: scala-parser-combinators_2.12:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.module#jackson-module-parameter-names;2.9.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jackson-module-parameter-names:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: javax.annotation#javax.annotation-api;1.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: javax.annotation-api:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: commons-codec#commons-codec;1.10 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: commons-codec:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.slf4j#jcl-over-slf4j;1.7.25 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jcl-over-slf4j:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.json4s#json4s-scalap_2.12;3.5.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: json4s-scalap_2.12:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.springframework#spring-context;5.0.2.RELEASE {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: spring-context:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.hk2#hk2-api;2.5.0-b32 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: hk2-api:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.swagger#swagger-scala-module_2.12;1.0.4 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: swagger-scala-module_2.12:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: net.sourceforge.jtds#jtds;1.3.1 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: jtds:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard#dropwizard-jackson;1.2.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: dropwizard-jackson:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.joda#joda-convert;1.9.2 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: joda-convert:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.module#jackson-module-paranamer;2.9.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jackson-module-paranamer:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.swagger#swagger-jaxrs;1.5.17 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: swagger-jaxrs:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: javax.servlet#javax.servlet-api;3.1.0 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: javax.servlet-api:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.jaxrs#jackson-jaxrs-json-provider;2.9.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jackson-jaxrs-json-provider:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.apache.commons#commons-lang3;3.7 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: commons-lang3:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: junit#junit;4.12 {test=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)]} (artifacts: junit:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: javax.validation#validation-api;1.1.0.Final {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: validation-api:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: jline#jline;2.14.5 {scala-tool=[master(*), compile, compile(*), master]} (artifacts: jline:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: net.sourceforge.argparse4j#argparse4j;0.7.0 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: argparse4j:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.objenesis#objenesis;2.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: objenesis:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.hamcrest#hamcrest-core;1.3 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: hamcrest-core:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.google.errorprone#error_prone_annotations;2.0.18 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: error_prone_annotations:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.eclipse.jetty#jetty-io;9.4.7.v20170914 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jetty-io:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, compile, runtime, optional, optional(default), master]} (artifacts: scala-compiler:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.springframework#spring-core;5.0.2.RELEASE {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: spring-core:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard.metrics#metrics-jetty9;3.2.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: metrics-jetty9:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.flywaydb#flyway-core;4.2.0 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: flyway-core:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: commons-io#commons-io;2.6 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: commons-io:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.jersey.core#jersey-client;2.25.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jersey-client:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.hk2.external#aopalliance-repackaged;2.5.0-b32 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: aopalliance-repackaged:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.eclipse.jetty.toolchain.setuid#jetty-setuid-java;1.0.3 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jetty-setuid-java:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.hk2#osgi-resource-locator;1.0.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: osgi-resource-locator:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.mchange#c3p0;0.9.5 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: c3p0:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.allangray.common#common-shared-implementations;20.0.5 {test=[compile, default(compile)], test-internal=[compile, default(compile)]} (artifacts: common-shared-implementations:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard#dropwizard-metrics;1.2.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: dropwizard-metrics:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish#javax.el;3.0.0 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: javax.el:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.swagger#swagger-core;1.5.17 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: swagger-core:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.springframework#spring-jcl;5.0.2.RELEASE {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: spring-jcl:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.eclipse.jetty#jetty-webapp;9.4.7.v20170914 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jetty-webapp:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: ch.qos.logback#logback-core;1.2.3 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: logback-core:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.datatype#jackson-datatype-joda;2.9.2 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: jackson-datatype-joda:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard#dropwizard-auth;1.2.2 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: dropwizard-auth:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.fasterxml.jackson.module#jackson-module-scala_2.12;2.9.2 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: jackson-module-scala_2.12:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.h2database#h2;1.4.196 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: h2:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.mchange#mchange-commons-java;0.2.9 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: mchange-commons-java:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard.metrics#metrics-servlets;3.2.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: metrics-servlets:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.jboss.logging#jboss-logging;3.3.0.Final {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jboss-logging:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard#dropwizard-core;1.2.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: dropwizard-core:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.jersey.media#jersey-media-jaxb;2.25.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: jersey-media-jaxb:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.glassfish.jersey.media#jersey-media-multipart;2.25.1 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: jersey-media-multipart:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.dropwizard#dropwizard-lifecycle;1.2.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: dropwizard-lifecycle:src:jar:{classifier=sources})
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/xpp3/xpp3_min/1.1.4c_temp-resolve-6e021eaea0dee5da386cae56f85e3fefdd6bce24/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.jersey.ext/jersey-bean-validation/2.25.1_temp-resolve-54347bb1245a0b8ed53cc30f2c6b684c77c7cf21/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.jersey.containers/jersey-container-servlet/2.25.1_temp-resolve-c5df602e4227d9032ee1055641ac92625622f1bd/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.reflections/reflections/0.9.11_temp-resolve-9b0a573921ae055742c76a4704410f1d125f6f31/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.eclipse.jetty/jetty-servlets/9.4.7.v20170914_temp-resolve-967a75c65a20c3aade88f9b1304fe69f6a182518/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.google.j2objc/j2objc-annotations/1.1_temp-resolve-7facb4b2cd07fa63002d9cc2118b36507af06e29/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.eclipse.jetty/jetty-xml/9.4.7.v20170914_temp-resolve-8ce19c4f7f6306cae6e9357f33eb05117db2d0a5/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard/dropwizard-jersey/1.2.2_temp-resolve-6c7d09c9c839d285c5620c78ddf02eee31ca9004/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.papertrail/profiler/1.0.2_temp-resolve-177df298cb2460a9b95b6eb5ca5e99e685dad062/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard.metrics/metrics-json/3.2.5_temp-resolve-a41455887afed4e0cb12aea8ba94d44bd47bc6c7/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.jsonwebtoken/jjwt/0.9.0_temp-resolve-0ffd92c6889886524c7170db57aa96deaf048e7b/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/ch.qos.logback/logback-access/1.2.3_temp-resolve-0b74825838e8b098f08e5ebf0fba2063bef5fad6/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.thoughtworks.xstream/xstream/1.4.10_temp-resolve-365eb124f910025f1855f1e08690c704c2acb539/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.slf4j/jul-to-slf4j/1.7.25_temp-resolve-5db4f3d9ad345daaf1c72efde7a1e615b1bb1f32/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.eclipse.jetty/jetty-util/9.4.7.v20170914_temp-resolve-3863982cc91f3e7ef1b7e379af9d178906e5a7a2/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.jersey.containers/jersey-container-servlet-core/2.25.1_temp-resolve-b3f3dc58c2b418faf02321d9515a97b89f1c98e3/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard/dropwizard-configuration/1.2.2_temp-resolve-6c28460f401e41d3f04d2b072b46d7cdeba226c3/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.slf4j/log4j-over-slf4j/1.7.25_temp-resolve-bf0e76e6c8be508c53a1228c3cb22292d860d155/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.google.code.findbugs/jsr305/3.0.2_temp-resolve-719d30b3984ca3ed327519be8d706938a4bc75a4/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.fasterxml.jackson.datatype/jackson-datatype-guava/2.9.1_temp-resolve-2bce86c0ff9e601b70edb05f460e03aec389ccf5/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.fasterxml.jackson.module/jackson-module-afterburner/2.9.1_temp-resolve-0be971da607ec86dae21e6af4f597b3184621928/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.jvnet.mimepull/mimepull/1.9.6_temp-resolve-b3e5a7e7ad16d004167fa4bc026a9e34e8edb5bc/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard/dropwizard-jetty/1.2.2_temp-resolve-e6087b85e7012cd7e15c0e9cf9d529547d29565f/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard/dropwizard-util/1.2.2_temp-resolve-fc502e12f5cbef7a835341bb4e1d7348b6d06ea6/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.1_temp-resolve-9338304c41c6e24509c21c30d442d9e432f30e21/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.yaml/snakeyaml/1.18_temp-resolve-c904da76d49fb4555be11f9f36bf02bc0ff61c9c/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.codehaus.mojo/animal-sniffer-annotations/1.14_temp-resolve-eca99c4879e0d0819253c33cf5ff1a50e76dbee0/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.jersey.core/jersey-common/2.25.1_temp-resolve-4c40286a17b8c5c6218cb960bc0f727aecd957f1/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard/dropwizard-validation/1.2.2_temp-resolve-eae7a676a09921a9fd780d7dd9e3999b3a24d694/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.hk2/hk2-utils/2.5.0-b32_temp-resolve-3d3c5187a68e50be7009d0fe2ac7bb6755883098/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard.metrics/metrics-jvm/3.2.5_temp-resolve-4cd989adc5974c405ab6b2ab290f2bb7e2148a8b/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.eclipse.jetty/jetty-http/9.4.7.v20170914_temp-resolve-67b623fa4bf1e5a077ef4f46d8eb474fcf334072/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard/dropwizard-servlets/1.2.2_temp-resolve-c9b23b67d830c952c3b97be7a27cb882b548ae6b/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.9.1_temp-resolve-da2de83bb8482a09d4297c7935b01e151e4cc677/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard/dropwizard-logging/1.2.2_temp-resolve-ba5e6ceb0becc0b3da03054118595581d1415664/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/javax.ws.rs/javax.ws.rs-api/2.0.1_temp-resolve-04814b58d647b255817c0cb7d9d2d80595acafc7/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.swagger/swagger-models/1.5.17_temp-resolve-619d9f7979ac628f9a7d7e6215f226185863dedf/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.hk2/hk2-locator/2.5.0-b32_temp-resolve-ac8121fc88b00a876a1ec7dc57d699b373e6f62a/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.jersey.core/jersey-server/2.25.1_temp-resolve-1259b93c39d1a969340c621502dbeb4edccf87d6/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.eclipse.jetty/jetty-server/9.4.7.v20170914_temp-resolve-0f855470c00cbcb135ed75f0e31c3c7f00cedde6/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard.metrics/metrics-logback/3.2.5_temp-resolve-dcef94aca99d2b58734d94023ea0e5ffae87c7b5/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard/dropwizard-request-logging/1.2.2_temp-resolve-fb7ad1a69b1c10301ee8492aa86e725c6c8fbba0/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.jersey.bundles.repackaged/jersey-guava/2.25.1_temp-resolve-d0865cd60e9c6dd739527e5cc649cc69974c4d61/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.9.1_temp-resolve-877ea8e9213a91c8617112b76bff99e929280e01/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/ch.qos.logback/logback-classic/1.2.3_temp-resolve-d728b7d9b6ef86f40e2c66c0999dd984b6a4288f/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.eclipse.jetty/jetty-continuation/9.4.7.v20170914_temp-resolve-b8fff40cac7668997c72213f5d4fdc9b62ec2b0b/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.slf4j/slf4j-api/1.7.25_temp-resolve-5c56a9a94c9b8b2779daa349e9f397ee0b98a568/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.allangray.common/common-rest/20.0.5_temp-resolve-3a2abea2d91a00c6771d0d41458551212c329f50/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.javassist/javassist/3.21.0-GA_temp-resolve-823eb82dee65752d163668e171275bc417662bc0/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard.metrics/metrics-jersey2/3.2.5_temp-resolve-5a293d8f17fc3d378b15de5510404e34bc837e78/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.eclipse.jetty/jetty-servlet/9.4.7.v20170914_temp-resolve-60b7051e71b92eec899c4b212c810e81cec790c8/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard.metrics/metrics-core/3.2.5_temp-resolve-94326f8c01da6bb21a8c8883cd3f706854131d79/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard.metrics/metrics-annotation/3.2.5_temp-resolve-de7d4ef6e49652dfc3a8a613b3b3b31b8711c964/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.eclipse.jetty/jetty-security/9.4.7.v20170914_temp-resolve-9eba5acc66da2598ccd6256a88c10474be24a889/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.fasterxml/classmate/1.3.1_temp-resolve-9d815a19cdf940e35080aa5fb0d09337196406c6/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.hibernate/hibernate-validator/5.4.1.Final_temp-resolve-509fb20bc463769371443d011340dd24ba5448fc/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.hk2.external/javax.inject/2.5.0-b32_temp-resolve-27b24da25653b63ac07266288ccc3714f934eda2/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.9.1_temp-resolve-5233095ae9514032cc54c2d8fe951930cb7ef47c/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.jersey.ext/jersey-metainf-services/2.25.1_temp-resolve-a80e8889f4e893604ecb01dfd6c932c00c660691/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard.metrics/metrics-healthchecks/3.2.5_temp-resolve-5fbe00c813b7093b872a9b3527b89122f670c88c/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.9.1_temp-resolve-979cc69ed7a58d16cb40010f9539c7f830410c35/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.fasterxml.jackson.module/jackson-module-parameter-names/2.9.1_temp-resolve-180f7bf51e7afc16ee3c5a45410a5bc73ef23cf8/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/javax.annotation/javax.annotation-api/1.2_temp-resolve-f18d87e85a35175b4bd7f6b4dc1c5cf7ec5f8c34/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.slf4j/jcl-over-slf4j/1.7.25_temp-resolve-731a8e9e068bb245945cba30bce5cea2da7e7e17/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.hk2/hk2-api/2.5.0-b32_temp-resolve-9e05402bba6aef4562669b4db4ad70b82e4086ac/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.swagger/swagger-scala-module_2.12/1.0.4_temp-resolve-f9399200d042c8a2055f56e3cf05e7f57660fc97/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard/dropwizard-jackson/1.2.2_temp-resolve-d90f0e83d6bc831b7e59656a7dd5778a2f7c567e/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.swagger/swagger-jaxrs/1.5.17_temp-resolve-ca9f291390ef6386f39ce46904198863d2c12f46/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/javax.servlet/javax.servlet-api/3.1.0_temp-resolve-11e0e0394d616ba494f92ecf855a7cc8d7ce796e/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.9.1_temp-resolve-86d0b4aba85abdd0d52f9f2877b9f7f5c6d022b7/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/javax.validation/validation-api/1.1.0.Final_temp-resolve-5a3093b3d6ad8279d13fb1a705201b3507c4b749/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/net.sourceforge.argparse4j/argparse4j/0.7.0_temp-resolve-54956214645e05a9b41e4da970ad554cd4c10f5a/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/com.google.errorprone/error_prone_annotations/2.0.18_temp-resolve-bf3de28bc7839fd55d960e797226f3afbb70c282/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.eclipse.jetty/jetty-io/9.4.7.v20170914_temp-resolve-1112e9910d243f9bd1b4b880ba578d29a0d7570d/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard.metrics/metrics-jetty9/3.2.5_temp-resolve-f851dced42fc64b2726fc14c38bfad8ce8cb63e9/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.jersey.core/jersey-client/2.25.1_temp-resolve-a585f910aa5542a1217724a1feb5e8106bea370b/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.hk2.external/aopalliance-repackaged/2.5.0-b32_temp-resolve-5bf67007e0a87ef348f27888808c57c76fe28cbf/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.eclipse.jetty.toolchain.setuid/jetty-setuid-java/1.0.3_temp-resolve-cd54fdfe02b7fb405e25b437ea3fc7d3ea42e844/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.hk2/osgi-resource-locator/1.0.1_temp-resolve-d8d56305cde7c74ea11939b1be2e286a596a5462/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard/dropwizard-metrics/1.2.2_temp-resolve-8036754992421889437a845ee821e229f720814e/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish/javax.el/3.0.0_temp-resolve-249b336606d42fe9f88c2840ae959f0e86304c06/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.swagger/swagger-core/1.5.17_temp-resolve-05ba2d16e08278febb3e1e82fe6823ff895c6664/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.eclipse.jetty/jetty-webapp/9.4.7.v20170914_temp-resolve-b537779f6bef2b453ca9d8157524c24723f99ef6/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/ch.qos.logback/logback-core/1.2.3_temp-resolve-be46cf902e0f2c284614c12c327bc5bbe65f6801/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard/dropwizard-auth/1.2.2_temp-resolve-655c1e7a2586e9f4bce6045e8a1226c1090f092d/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard.metrics/metrics-servlets/3.2.5_temp-resolve-5549cbb064ae8da257bc2ed165ff72a8d2ca32c8/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.jboss.logging/jboss-logging/3.3.0.Final_temp-resolve-dc8ee6939e339ffc67a1995d13eef029e57d4779/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard/dropwizard-core/1.2.2_temp-resolve-469c0ef1bc0e7f374139b3396d9111711a593e80/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.jersey.media/jersey-media-jaxb/2.25.1_temp-resolve-314ae1ab6210f9b3f42363aa4f5597d4a6cb0550/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/org.glassfish.jersey.media/jersey-media-multipart/2.25.1_temp-resolve-dd216ff19d4cd25f3adb5bb40a4ba6590d029790/graphs/graph.json
+[debug] parsing /home/dev/.sbt/0.13/dependency/module/static/io.dropwizard/dropwizard-lifecycle/1.2.2_temp-resolve-4f7f2207dd3eff5370fbecdcbdc2730fce50621a/graphs/graph.json
+[debug] :: merging update reports
+[debug] ::: -----------
+[debug] :: compile: loop: List()
+[debug] :: sort result: com.thoughtworks.paranamer:paranamer, org.scala-lang:scala-library, com.fasterxml.jackson.core:jackson-annotations, io.swagger:swagger-annotations, com.allangray.common:common-primitives, org.scala-lang.modules:scala-xml_2.12, org.squeryl:squeryl_2.12, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-core, joda-time:joda-time, cglib:cglib-nodep, com.allangray.common:common-interfaces, org.scala-lang:scala-reflect, org.json4s:json4s-scalap_2.12, com.fasterxml.jackson.module:jackson-module-paranamer, com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict compile: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict compile: org.scala-lang:scala-library
+[debug] :: no conflict compile: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict compile: io.swagger:swagger-annotations
+[debug] :: no conflict compile: com.allangray.common:common-primitives
+[debug] :: no conflict compile: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict compile: org.squeryl:squeryl_2.12
+[debug] :: no conflict compile: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict compile: com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict compile: joda-time:joda-time
+[debug] :: no conflict compile: cglib:cglib-nodep
+[debug] :: no conflict compile: com.allangray.common:common-interfaces
+[debug] :: no conflict compile: org.scala-lang:scala-reflect
+[debug] :: no conflict compile: org.json4s:json4s-scalap_2.12
+[debug] :: no conflict compile: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict compile: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] ::: -----------
+[debug] :: runtime: loop: List()
+[debug] :: sort result: com.thoughtworks.paranamer:paranamer, org.scala-lang:scala-library, com.fasterxml.jackson.core:jackson-annotations, io.swagger:swagger-annotations, com.allangray.common:common-primitives, org.scala-lang.modules:scala-xml_2.12, org.squeryl:squeryl_2.12, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-core, joda-time:joda-time, cglib:cglib-nodep, com.allangray.common:common-interfaces, org.scala-lang:scala-reflect, org.json4s:json4s-scalap_2.12, com.fasterxml.jackson.module:jackson-module-paranamer, com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict runtime: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict runtime: org.scala-lang:scala-library
+[debug] :: no conflict runtime: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict runtime: io.swagger:swagger-annotations
+[debug] :: no conflict runtime: com.allangray.common:common-primitives
+[debug] :: no conflict runtime: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict runtime: org.squeryl:squeryl_2.12
+[debug] :: no conflict runtime: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict runtime: com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict runtime: joda-time:joda-time
+[debug] :: no conflict runtime: cglib:cglib-nodep
+[debug] :: no conflict runtime: com.allangray.common:common-interfaces
+[debug] :: no conflict runtime: org.scala-lang:scala-reflect
+[debug] :: no conflict runtime: org.json4s:json4s-scalap_2.12
+[debug] :: no conflict runtime: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict runtime: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] ::: -----------
+[debug] :: test: loop: List()
+[debug] :: sort result: xpp3:xpp3_min, org.glassfish.jersey.ext:jersey-bean-validation, org.springframework:spring-expression, com.allangray.common:common-test-implementations, com.allangray.common:common-implementations, org.glassfish.jersey.containers:jersey-container-servlet, org.reflections:reflections, com.thoughtworks.paranamer:paranamer, org.eclipse.jetty:jetty-servlets, javax.ws.rs:jsr311-api, com.google.j2objc:j2objc-annotations, org.eclipse.jetty:jetty-xml, io.dropwizard:dropwizard-jersey, com.papertrail:profiler, org.springframework:spring-aop, org.scala-lang:scala-library, com.fasterxml.jackson.core:jackson-annotations, io.dropwizard.metrics:metrics-json, io.jsonwebtoken:jjwt, ch.qos.logback:logback-access, com.thoughtworks.xstream:xstream, org.slf4j:jul-to-slf4j, org.eclipse.jetty:jetty-util, org.glassfish.jersey.containers:jersey-container-servlet-core, io.swagger:swagger-annotations, com.allangray.common:common-primitives, org.scalatest:scalatest_2.12, net.bytebuddy:byte-buddy, org.apache.httpcomponents:httpmime, io.dropwizard:dropwizard-configuration, org.slf4j:log4j-over-slf4j, net.bytebuddy:byte-buddy-agent, org.scalactic:scalactic_2.12, com.google.code.findbugs:jsr305, com.fasterxml.jackson.datatype:jackson-datatype-guava, org.scala-lang.modules:scala-xml_2.12, com.fasterxml.jackson.module:jackson-module-afterburner, org.jvnet.mimepull:mimepull, io.dropwizard:dropwizard-jetty, org.squeryl:squeryl_2.12, io.dropwizard:dropwizard-util, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.datatype:jackson-datatype-jsr310, org.yaml:snakeyaml, org.codehaus.mojo:animal-sniffer-annotations, org.glassfish.jersey.core:jersey-common, org.springframework:spring-beans, io.dropwizard:dropwizard-validation, com.googlecode.json-simple:json-simple, org.glassfish.hk2:hk2-utils, io.dropwizard.metrics:metrics-jvm, org.eclipse.jetty:jetty-http, io.dropwizard:dropwizard-servlets, com.fasterxml.jackson.module:jackson-module-jaxb-annotations, io.dropwizard:dropwizard-logging, javax.ws.rs:javax.ws.rs-api, io.swagger:swagger-models, org.glassfish.hk2:hk2-locator, org.glassfish.jersey.core:jersey-server, org.apache.httpcomponents:httpcore, org.eclipse.jetty:jetty-server, io.dropwizard.metrics:metrics-logback, com.google.guava:guava, io.dropwizard:dropwizard-request-logging, org.glassfish.jersey.bundles.repackaged:jersey-guava, com.fasterxml.jackson.dataformat:jackson-dataformat-yaml, ch.qos.logback:logback-classic, com.fasterxml.jackson.core:jackson-core, joda-time:joda-time, org.eclipse.jetty:jetty-continuation, cglib:cglib-nodep, org.slf4j:slf4j-api, org.mockito:mockito-core, com.allangray.common:common-rest, org.javassist:javassist, org.checkerframework:checker-qual, io.dropwizard.metrics:metrics-jersey2, org.eclipse.jetty:jetty-servlet, io.dropwizard.metrics:metrics-core, com.allangray.common:common-interfaces, io.dropwizard.metrics:metrics-annotation, org.eclipse.jetty:jetty-security, com.fasterxml:classmate, org.hibernate:hibernate-validator, org.scala-lang:scala-reflect, org.glassfish.hk2.external:javax.inject, com.fasterxml.jackson.jaxrs:jackson-jaxrs-base, org.glassfish.jersey.ext:jersey-metainf-services, org.apache.httpcomponents:httpclient, io.dropwizard.metrics:metrics-healthchecks, com.fasterxml.jackson.datatype:jackson-datatype-jdk8, org.scala-lang.modules:scala-parser-combinators_2.12, com.fasterxml.jackson.module:jackson-module-parameter-names, javax.annotation:javax.annotation-api, commons-codec:commons-codec, org.slf4j:jcl-over-slf4j, org.json4s:json4s-scalap_2.12, org.springframework:spring-context, org.glassfish.hk2:hk2-api, io.swagger:swagger-scala-module_2.12, net.sourceforge.jtds:jtds, io.dropwizard:dropwizard-jackson, org.joda:joda-convert, com.fasterxml.jackson.module:jackson-module-paranamer, io.swagger:swagger-jaxrs, javax.servlet:javax.servlet-api, com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider, org.apache.commons:commons-lang3, junit:junit, javax.validation:validation-api, net.sourceforge.argparse4j:argparse4j, org.objenesis:objenesis, org.hamcrest:hamcrest-core, com.google.errorprone:error_prone_annotations, org.eclipse.jetty:jetty-io, org.springframework:spring-core, io.dropwizard.metrics:metrics-jetty9, org.flywaydb:flyway-core, commons-io:commons-io, org.glassfish.jersey.core:jersey-client, org.glassfish.hk2.external:aopalliance-repackaged, org.eclipse.jetty.toolchain.setuid:jetty-setuid-java, org.glassfish.hk2:osgi-resource-locator, com.mchange:c3p0, com.allangray.common:common-shared-implementations, io.dropwizard:dropwizard-metrics, org.glassfish:javax.el, io.swagger:swagger-core, org.springframework:spring-jcl, org.eclipse.jetty:jetty-webapp, ch.qos.logback:logback-core, com.fasterxml.jackson.datatype:jackson-datatype-joda, io.dropwizard:dropwizard-auth, com.fasterxml.jackson.module:jackson-module-scala_2.12, com.h2database:h2, com.mchange:mchange-commons-java, io.dropwizard.metrics:metrics-servlets, org.jboss.logging:jboss-logging, io.dropwizard:dropwizard-core, org.glassfish.jersey.media:jersey-media-jaxb, org.glassfish.jersey.media:jersey-media-multipart, io.dropwizard:dropwizard-lifecycle
+[debug] :: no conflict test: xpp3:xpp3_min
+[debug] :: no conflict test: org.glassfish.jersey.ext:jersey-bean-validation
+[debug] :: no conflict test: org.springframework:spring-expression
+[debug] :: no conflict test: com.allangray.common:common-test-implementations
+[debug] :: no conflict test: com.allangray.common:common-implementations
+[debug] :: no conflict test: org.glassfish.jersey.containers:jersey-container-servlet
+[debug] :: no conflict test: org.reflections:reflections
+[debug] :: no conflict test: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict test: org.eclipse.jetty:jetty-servlets
+[debug] :: no conflict test: javax.ws.rs:jsr311-api
+[debug] :: no conflict test: com.google.j2objc:j2objc-annotations
+[debug] :: no conflict test: org.eclipse.jetty:jetty-xml
+[debug] :: no conflict test: io.dropwizard:dropwizard-jersey
+[debug] :: no conflict test: com.papertrail:profiler
+[debug] :: no conflict test: org.springframework:spring-aop
+[debug] :: no conflict test: org.scala-lang:scala-library
+[debug] :: no conflict test: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-json
+[debug] :: no conflict test: io.jsonwebtoken:jjwt
+[debug] :: no conflict test: ch.qos.logback:logback-access
+[debug] :: no conflict test: com.thoughtworks.xstream:xstream
+[debug] :: no conflict test: org.slf4j:jul-to-slf4j
+[debug] :: no conflict test: org.eclipse.jetty:jetty-util
+[debug] :: no conflict test: org.glassfish.jersey.containers:jersey-container-servlet-core
+[debug] :: no conflict test: io.swagger:swagger-annotations
+[debug] :: no conflict test: com.allangray.common:common-primitives
+[debug] :: no conflict test: org.scalatest:scalatest_2.12
+[debug] :: no conflict test: net.bytebuddy:byte-buddy
+[debug] :: no conflict test: org.apache.httpcomponents:httpmime
+[debug] :: no conflict test: io.dropwizard:dropwizard-configuration
+[debug] :: no conflict test: org.slf4j:log4j-over-slf4j
+[debug] :: no conflict test: net.bytebuddy:byte-buddy-agent
+[debug] :: no conflict test: org.scalactic:scalactic_2.12
+[debug] :: no conflict test: com.google.code.findbugs:jsr305
+[debug] :: no conflict test: com.fasterxml.jackson.datatype:jackson-datatype-guava
+[debug] :: no conflict test: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict test: com.fasterxml.jackson.module:jackson-module-afterburner
+[debug] :: no conflict test: org.jvnet.mimepull:mimepull
+[debug] :: no conflict test: io.dropwizard:dropwizard-jetty
+[debug] :: no conflict test: org.squeryl:squeryl_2.12
+[debug] :: no conflict test: io.dropwizard:dropwizard-util
+[debug] :: no conflict test: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict test: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+[debug] :: no conflict test: org.yaml:snakeyaml
+[debug] :: no conflict test: org.codehaus.mojo:animal-sniffer-annotations
+[debug] :: no conflict test: org.glassfish.jersey.core:jersey-common
+[debug] :: no conflict test: org.springframework:spring-beans
+[debug] :: no conflict test: io.dropwizard:dropwizard-validation
+[debug] :: no conflict test: com.googlecode.json-simple:json-simple
+[debug] :: no conflict test: org.glassfish.hk2:hk2-utils
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-jvm
+[debug] :: no conflict test: org.eclipse.jetty:jetty-http
+[debug] :: no conflict test: io.dropwizard:dropwizard-servlets
+[debug] :: no conflict test: com.fasterxml.jackson.module:jackson-module-jaxb-annotations
+[debug] :: no conflict test: io.dropwizard:dropwizard-logging
+[debug] :: no conflict test: javax.ws.rs:javax.ws.rs-api
+[debug] :: no conflict test: io.swagger:swagger-models
+[debug] :: no conflict test: org.glassfish.hk2:hk2-locator
+[debug] :: no conflict test: org.glassfish.jersey.core:jersey-server
+[debug] :: no conflict test: org.apache.httpcomponents:httpcore
+[debug] :: no conflict test: org.eclipse.jetty:jetty-server
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-logback
+[debug] :: no conflict test: com.google.guava:guava
+[debug] :: no conflict test: io.dropwizard:dropwizard-request-logging
+[debug] :: no conflict test: org.glassfish.jersey.bundles.repackaged:jersey-guava
+[debug] :: no conflict test: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+[debug] :: no conflict test: ch.qos.logback:logback-classic
+[debug] :: no conflict test: com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict test: joda-time:joda-time
+[debug] :: no conflict test: org.eclipse.jetty:jetty-continuation
+[debug] :: no conflict test: cglib:cglib-nodep
+[debug] :: no conflict test: org.slf4j:slf4j-api
+[debug] :: no conflict test: org.mockito:mockito-core
+[debug] :: no conflict test: com.allangray.common:common-rest
+[debug] :: no conflict test: org.javassist:javassist
+[debug] :: no conflict test: org.checkerframework:checker-qual
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-jersey2
+[debug] :: no conflict test: org.eclipse.jetty:jetty-servlet
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-core
+[debug] :: no conflict test: com.allangray.common:common-interfaces
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-annotation
+[debug] :: no conflict test: org.eclipse.jetty:jetty-security
+[debug] :: no conflict test: com.fasterxml:classmate
+[debug] :: no conflict test: org.hibernate:hibernate-validator
+[debug] :: no conflict test: org.scala-lang:scala-reflect
+[debug] :: no conflict test: org.glassfish.hk2.external:javax.inject
+[debug] :: no conflict test: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base
+[debug] :: no conflict test: org.glassfish.jersey.ext:jersey-metainf-services
+[debug] :: no conflict test: org.apache.httpcomponents:httpclient
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-healthchecks
+[debug] :: no conflict test: com.fasterxml.jackson.datatype:jackson-datatype-jdk8
+[debug] :: no conflict test: org.scala-lang.modules:scala-parser-combinators_2.12
+[debug] :: no conflict test: com.fasterxml.jackson.module:jackson-module-parameter-names
+[debug] :: no conflict test: javax.annotation:javax.annotation-api
+[debug] :: no conflict test: commons-codec:commons-codec
+[debug] :: no conflict test: org.slf4j:jcl-over-slf4j
+[debug] :: no conflict test: org.json4s:json4s-scalap_2.12
+[debug] :: no conflict test: org.springframework:spring-context
+[debug] :: no conflict test: org.glassfish.hk2:hk2-api
+[debug] :: no conflict test: io.swagger:swagger-scala-module_2.12
+[debug] :: no conflict test: net.sourceforge.jtds:jtds
+[debug] :: no conflict test: io.dropwizard:dropwizard-jackson
+[debug] :: no conflict test: org.joda:joda-convert
+[debug] :: no conflict test: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict test: io.swagger:swagger-jaxrs
+[debug] :: no conflict test: javax.servlet:javax.servlet-api
+[debug] :: no conflict test: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider
+[debug] :: no conflict test: org.apache.commons:commons-lang3
+[debug] :: no conflict test: junit:junit
+[debug] :: no conflict test: javax.validation:validation-api
+[debug] :: no conflict test: net.sourceforge.argparse4j:argparse4j
+[debug] :: no conflict test: org.objenesis:objenesis
+[debug] :: no conflict test: org.hamcrest:hamcrest-core
+[debug] :: no conflict test: com.google.errorprone:error_prone_annotations
+[debug] :: no conflict test: org.eclipse.jetty:jetty-io
+[debug] :: no conflict test: org.springframework:spring-core
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-jetty9
+[debug] :: no conflict test: org.flywaydb:flyway-core
+[debug] :: no conflict test: commons-io:commons-io
+[debug] :: no conflict test: org.glassfish.jersey.core:jersey-client
+[debug] :: no conflict test: org.glassfish.hk2.external:aopalliance-repackaged
+[debug] :: no conflict test: org.eclipse.jetty.toolchain.setuid:jetty-setuid-java
+[debug] :: no conflict test: org.glassfish.hk2:osgi-resource-locator
+[debug] :: no conflict test: com.mchange:c3p0
+[debug] :: no conflict test: com.allangray.common:common-shared-implementations
+[debug] :: no conflict test: io.dropwizard:dropwizard-metrics
+[debug] :: no conflict test: org.glassfish:javax.el
+[debug] :: no conflict test: io.swagger:swagger-core
+[debug] :: no conflict test: org.springframework:spring-jcl
+[debug] :: no conflict test: org.eclipse.jetty:jetty-webapp
+[debug] :: no conflict test: ch.qos.logback:logback-core
+[debug] :: no conflict test: com.fasterxml.jackson.datatype:jackson-datatype-joda
+[debug] :: no conflict test: io.dropwizard:dropwizard-auth
+[debug] :: no conflict test: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict test: com.h2database:h2
+[debug] :: no conflict test: com.mchange:mchange-commons-java
+[debug] :: no conflict test: io.dropwizard.metrics:metrics-servlets
+[debug] :: no conflict test: org.jboss.logging:jboss-logging
+[debug] :: no conflict test: io.dropwizard:dropwizard-core
+[debug] :: no conflict test: org.glassfish.jersey.media:jersey-media-jaxb
+[debug] :: no conflict test: org.glassfish.jersey.media:jersey-media-multipart
+[debug] :: no conflict test: io.dropwizard:dropwizard-lifecycle
+[debug] ::: -----------
+[debug] :: provided: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: optional: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: compile-internal: loop: List()
+[debug] :: sort result: com.thoughtworks.paranamer:paranamer, org.scala-lang:scala-library, com.fasterxml.jackson.core:jackson-annotations, io.swagger:swagger-annotations, com.allangray.common:common-primitives, org.scala-lang.modules:scala-xml_2.12, org.squeryl:squeryl_2.12, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-core, joda-time:joda-time, cglib:cglib-nodep, com.allangray.common:common-interfaces, org.scala-lang:scala-reflect, org.json4s:json4s-scalap_2.12, com.fasterxml.jackson.module:jackson-module-paranamer, com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict compile-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict compile-internal: org.scala-lang:scala-library
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict compile-internal: io.swagger:swagger-annotations
+[debug] :: no conflict compile-internal: com.allangray.common:common-primitives
+[debug] :: no conflict compile-internal: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict compile-internal: org.squeryl:squeryl_2.12
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict compile-internal: joda-time:joda-time
+[debug] :: no conflict compile-internal: cglib:cglib-nodep
+[debug] :: no conflict compile-internal: com.allangray.common:common-interfaces
+[debug] :: no conflict compile-internal: org.scala-lang:scala-reflect
+[debug] :: no conflict compile-internal: org.json4s:json4s-scalap_2.12
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] ::: -----------
+[debug] :: runtime-internal: loop: List()
+[debug] :: sort result: com.thoughtworks.paranamer:paranamer, org.scala-lang:scala-library, com.fasterxml.jackson.core:jackson-annotations, io.swagger:swagger-annotations, com.allangray.common:common-primitives, org.scala-lang.modules:scala-xml_2.12, org.squeryl:squeryl_2.12, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.core:jackson-core, joda-time:joda-time, cglib:cglib-nodep, com.allangray.common:common-interfaces, org.scala-lang:scala-reflect, org.json4s:json4s-scalap_2.12, com.fasterxml.jackson.module:jackson-module-paranamer, com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict runtime-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict runtime-internal: org.scala-lang:scala-library
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict runtime-internal: io.swagger:swagger-annotations
+[debug] :: no conflict runtime-internal: com.allangray.common:common-primitives
+[debug] :: no conflict runtime-internal: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict runtime-internal: org.squeryl:squeryl_2.12
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict runtime-internal: joda-time:joda-time
+[debug] :: no conflict runtime-internal: cglib:cglib-nodep
+[debug] :: no conflict runtime-internal: com.allangray.common:common-interfaces
+[debug] :: no conflict runtime-internal: org.scala-lang:scala-reflect
+[debug] :: no conflict runtime-internal: org.json4s:json4s-scalap_2.12
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] ::: -----------
+[debug] :: test-internal: loop: List()
+[debug] :: sort result: xpp3:xpp3_min, org.glassfish.jersey.ext:jersey-bean-validation, org.springframework:spring-expression, com.allangray.common:common-test-implementations, com.allangray.common:common-implementations, org.glassfish.jersey.containers:jersey-container-servlet, org.reflections:reflections, com.thoughtworks.paranamer:paranamer, org.eclipse.jetty:jetty-servlets, javax.ws.rs:jsr311-api, com.google.j2objc:j2objc-annotations, org.eclipse.jetty:jetty-xml, io.dropwizard:dropwizard-jersey, com.papertrail:profiler, org.springframework:spring-aop, org.scala-lang:scala-library, com.fasterxml.jackson.core:jackson-annotations, io.dropwizard.metrics:metrics-json, io.jsonwebtoken:jjwt, ch.qos.logback:logback-access, com.thoughtworks.xstream:xstream, org.slf4j:jul-to-slf4j, org.eclipse.jetty:jetty-util, org.glassfish.jersey.containers:jersey-container-servlet-core, io.swagger:swagger-annotations, com.allangray.common:common-primitives, org.scalatest:scalatest_2.12, net.bytebuddy:byte-buddy, org.apache.httpcomponents:httpmime, io.dropwizard:dropwizard-configuration, org.slf4j:log4j-over-slf4j, net.bytebuddy:byte-buddy-agent, org.scalactic:scalactic_2.12, com.google.code.findbugs:jsr305, com.fasterxml.jackson.datatype:jackson-datatype-guava, org.scala-lang.modules:scala-xml_2.12, com.fasterxml.jackson.module:jackson-module-afterburner, org.jvnet.mimepull:mimepull, io.dropwizard:dropwizard-jetty, org.squeryl:squeryl_2.12, io.dropwizard:dropwizard-util, com.fasterxml.jackson.core:jackson-databind, com.fasterxml.jackson.datatype:jackson-datatype-jsr310, org.yaml:snakeyaml, org.codehaus.mojo:animal-sniffer-annotations, org.glassfish.jersey.core:jersey-common, org.springframework:spring-beans, io.dropwizard:dropwizard-validation, com.googlecode.json-simple:json-simple, org.glassfish.hk2:hk2-utils, io.dropwizard.metrics:metrics-jvm, org.eclipse.jetty:jetty-http, io.dropwizard:dropwizard-servlets, com.fasterxml.jackson.module:jackson-module-jaxb-annotations, io.dropwizard:dropwizard-logging, javax.ws.rs:javax.ws.rs-api, io.swagger:swagger-models, org.glassfish.hk2:hk2-locator, org.glassfish.jersey.core:jersey-server, org.apache.httpcomponents:httpcore, org.eclipse.jetty:jetty-server, io.dropwizard.metrics:metrics-logback, com.google.guava:guava, io.dropwizard:dropwizard-request-logging, org.glassfish.jersey.bundles.repackaged:jersey-guava, com.fasterxml.jackson.dataformat:jackson-dataformat-yaml, ch.qos.logback:logback-classic, com.fasterxml.jackson.core:jackson-core, joda-time:joda-time, org.eclipse.jetty:jetty-continuation, cglib:cglib-nodep, org.slf4j:slf4j-api, org.mockito:mockito-core, com.allangray.common:common-rest, org.javassist:javassist, org.checkerframework:checker-qual, io.dropwizard.metrics:metrics-jersey2, org.eclipse.jetty:jetty-servlet, io.dropwizard.metrics:metrics-core, com.allangray.common:common-interfaces, io.dropwizard.metrics:metrics-annotation, org.eclipse.jetty:jetty-security, com.fasterxml:classmate, org.hibernate:hibernate-validator, org.scala-lang:scala-reflect, org.glassfish.hk2.external:javax.inject, com.fasterxml.jackson.jaxrs:jackson-jaxrs-base, org.glassfish.jersey.ext:jersey-metainf-services, org.apache.httpcomponents:httpclient, io.dropwizard.metrics:metrics-healthchecks, com.fasterxml.jackson.datatype:jackson-datatype-jdk8, org.scala-lang.modules:scala-parser-combinators_2.12, com.fasterxml.jackson.module:jackson-module-parameter-names, javax.annotation:javax.annotation-api, commons-codec:commons-codec, org.slf4j:jcl-over-slf4j, org.json4s:json4s-scalap_2.12, org.springframework:spring-context, org.glassfish.hk2:hk2-api, io.swagger:swagger-scala-module_2.12, net.sourceforge.jtds:jtds, io.dropwizard:dropwizard-jackson, org.joda:joda-convert, com.fasterxml.jackson.module:jackson-module-paranamer, io.swagger:swagger-jaxrs, javax.servlet:javax.servlet-api, com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider, org.apache.commons:commons-lang3, junit:junit, javax.validation:validation-api, net.sourceforge.argparse4j:argparse4j, org.objenesis:objenesis, org.hamcrest:hamcrest-core, com.google.errorprone:error_prone_annotations, org.eclipse.jetty:jetty-io, org.springframework:spring-core, io.dropwizard.metrics:metrics-jetty9, org.flywaydb:flyway-core, commons-io:commons-io, org.glassfish.jersey.core:jersey-client, org.glassfish.hk2.external:aopalliance-repackaged, org.eclipse.jetty.toolchain.setuid:jetty-setuid-java, org.glassfish.hk2:osgi-resource-locator, com.mchange:c3p0, com.allangray.common:common-shared-implementations, io.dropwizard:dropwizard-metrics, org.glassfish:javax.el, io.swagger:swagger-core, org.springframework:spring-jcl, org.eclipse.jetty:jetty-webapp, ch.qos.logback:logback-core, com.fasterxml.jackson.datatype:jackson-datatype-joda, io.dropwizard:dropwizard-auth, com.fasterxml.jackson.module:jackson-module-scala_2.12, com.h2database:h2, com.mchange:mchange-commons-java, io.dropwizard.metrics:metrics-servlets, org.jboss.logging:jboss-logging, io.dropwizard:dropwizard-core, org.glassfish.jersey.media:jersey-media-jaxb, org.glassfish.jersey.media:jersey-media-multipart, io.dropwizard:dropwizard-lifecycle
+[debug] :: no conflict test-internal: xpp3:xpp3_min
+[debug] :: no conflict test-internal: org.glassfish.jersey.ext:jersey-bean-validation
+[debug] :: no conflict test-internal: org.springframework:spring-expression
+[debug] :: no conflict test-internal: com.allangray.common:common-test-implementations
+[debug] :: no conflict test-internal: com.allangray.common:common-implementations
+[debug] :: no conflict test-internal: org.glassfish.jersey.containers:jersey-container-servlet
+[debug] :: no conflict test-internal: org.reflections:reflections
+[debug] :: no conflict test-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-servlets
+[debug] :: no conflict test-internal: javax.ws.rs:jsr311-api
+[debug] :: no conflict test-internal: com.google.j2objc:j2objc-annotations
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-xml
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-jersey
+[debug] :: no conflict test-internal: com.papertrail:profiler
+[debug] :: no conflict test-internal: org.springframework:spring-aop
+[debug] :: no conflict test-internal: org.scala-lang:scala-library
+[debug] :: no conflict test-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-json
+[debug] :: no conflict test-internal: io.jsonwebtoken:jjwt
+[debug] :: no conflict test-internal: ch.qos.logback:logback-access
+[debug] :: no conflict test-internal: com.thoughtworks.xstream:xstream
+[debug] :: no conflict test-internal: org.slf4j:jul-to-slf4j
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-util
+[debug] :: no conflict test-internal: org.glassfish.jersey.containers:jersey-container-servlet-core
+[debug] :: no conflict test-internal: io.swagger:swagger-annotations
+[debug] :: no conflict test-internal: com.allangray.common:common-primitives
+[debug] :: no conflict test-internal: org.scalatest:scalatest_2.12
+[debug] :: no conflict test-internal: net.bytebuddy:byte-buddy
+[debug] :: no conflict test-internal: org.apache.httpcomponents:httpmime
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-configuration
+[debug] :: no conflict test-internal: org.slf4j:log4j-over-slf4j
+[debug] :: no conflict test-internal: net.bytebuddy:byte-buddy-agent
+[debug] :: no conflict test-internal: org.scalactic:scalactic_2.12
+[debug] :: no conflict test-internal: com.google.code.findbugs:jsr305
+[debug] :: no conflict test-internal: com.fasterxml.jackson.datatype:jackson-datatype-guava
+[debug] :: no conflict test-internal: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict test-internal: com.fasterxml.jackson.module:jackson-module-afterburner
+[debug] :: no conflict test-internal: org.jvnet.mimepull:mimepull
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-jetty
+[debug] :: no conflict test-internal: org.squeryl:squeryl_2.12
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-util
+[debug] :: no conflict test-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: no conflict test-internal: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+[debug] :: no conflict test-internal: org.yaml:snakeyaml
+[debug] :: no conflict test-internal: org.codehaus.mojo:animal-sniffer-annotations
+[debug] :: no conflict test-internal: org.glassfish.jersey.core:jersey-common
+[debug] :: no conflict test-internal: org.springframework:spring-beans
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-validation
+[debug] :: no conflict test-internal: com.googlecode.json-simple:json-simple
+[debug] :: no conflict test-internal: org.glassfish.hk2:hk2-utils
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-jvm
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-http
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-servlets
+[debug] :: no conflict test-internal: com.fasterxml.jackson.module:jackson-module-jaxb-annotations
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-logging
+[debug] :: no conflict test-internal: javax.ws.rs:javax.ws.rs-api
+[debug] :: no conflict test-internal: io.swagger:swagger-models
+[debug] :: no conflict test-internal: org.glassfish.hk2:hk2-locator
+[debug] :: no conflict test-internal: org.glassfish.jersey.core:jersey-server
+[debug] :: no conflict test-internal: org.apache.httpcomponents:httpcore
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-server
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-logback
+[debug] :: no conflict test-internal: com.google.guava:guava
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-request-logging
+[debug] :: no conflict test-internal: org.glassfish.jersey.bundles.repackaged:jersey-guava
+[debug] :: no conflict test-internal: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+[debug] :: no conflict test-internal: ch.qos.logback:logback-classic
+[debug] :: no conflict test-internal: com.fasterxml.jackson.core:jackson-core
+[debug] :: no conflict test-internal: joda-time:joda-time
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-continuation
+[debug] :: no conflict test-internal: cglib:cglib-nodep
+[debug] :: no conflict test-internal: org.slf4j:slf4j-api
+[debug] :: no conflict test-internal: org.mockito:mockito-core
+[debug] :: no conflict test-internal: com.allangray.common:common-rest
+[debug] :: no conflict test-internal: org.javassist:javassist
+[debug] :: no conflict test-internal: org.checkerframework:checker-qual
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-jersey2
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-servlet
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-core
+[debug] :: no conflict test-internal: com.allangray.common:common-interfaces
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-annotation
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-security
+[debug] :: no conflict test-internal: com.fasterxml:classmate
+[debug] :: no conflict test-internal: org.hibernate:hibernate-validator
+[debug] :: no conflict test-internal: org.scala-lang:scala-reflect
+[debug] :: no conflict test-internal: org.glassfish.hk2.external:javax.inject
+[debug] :: no conflict test-internal: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base
+[debug] :: no conflict test-internal: org.glassfish.jersey.ext:jersey-metainf-services
+[debug] :: no conflict test-internal: org.apache.httpcomponents:httpclient
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-healthchecks
+[debug] :: no conflict test-internal: com.fasterxml.jackson.datatype:jackson-datatype-jdk8
+[debug] :: no conflict test-internal: org.scala-lang.modules:scala-parser-combinators_2.12
+[debug] :: no conflict test-internal: com.fasterxml.jackson.module:jackson-module-parameter-names
+[debug] :: no conflict test-internal: javax.annotation:javax.annotation-api
+[debug] :: no conflict test-internal: commons-codec:commons-codec
+[debug] :: no conflict test-internal: org.slf4j:jcl-over-slf4j
+[debug] :: no conflict test-internal: org.json4s:json4s-scalap_2.12
+[debug] :: no conflict test-internal: org.springframework:spring-context
+[debug] :: no conflict test-internal: org.glassfish.hk2:hk2-api
+[debug] :: no conflict test-internal: io.swagger:swagger-scala-module_2.12
+[debug] :: no conflict test-internal: net.sourceforge.jtds:jtds
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-jackson
+[debug] :: no conflict test-internal: org.joda:joda-convert
+[debug] :: no conflict test-internal: com.fasterxml.jackson.module:jackson-module-paranamer
+[debug] :: no conflict test-internal: io.swagger:swagger-jaxrs
+[debug] :: no conflict test-internal: javax.servlet:javax.servlet-api
+[debug] :: no conflict test-internal: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider
+[debug] :: no conflict test-internal: org.apache.commons:commons-lang3
+[debug] :: no conflict test-internal: junit:junit
+[debug] :: no conflict test-internal: javax.validation:validation-api
+[debug] :: no conflict test-internal: net.sourceforge.argparse4j:argparse4j
+[debug] :: no conflict test-internal: org.objenesis:objenesis
+[debug] :: no conflict test-internal: org.hamcrest:hamcrest-core
+[debug] :: no conflict test-internal: com.google.errorprone:error_prone_annotations
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-io
+[debug] :: no conflict test-internal: org.springframework:spring-core
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-jetty9
+[debug] :: no conflict test-internal: org.flywaydb:flyway-core
+[debug] :: no conflict test-internal: commons-io:commons-io
+[debug] :: no conflict test-internal: org.glassfish.jersey.core:jersey-client
+[debug] :: no conflict test-internal: org.glassfish.hk2.external:aopalliance-repackaged
+[debug] :: no conflict test-internal: org.eclipse.jetty.toolchain.setuid:jetty-setuid-java
+[debug] :: no conflict test-internal: org.glassfish.hk2:osgi-resource-locator
+[debug] :: no conflict test-internal: com.mchange:c3p0
+[debug] :: no conflict test-internal: com.allangray.common:common-shared-implementations
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-metrics
+[debug] :: no conflict test-internal: org.glassfish:javax.el
+[debug] :: no conflict test-internal: io.swagger:swagger-core
+[debug] :: no conflict test-internal: org.springframework:spring-jcl
+[debug] :: no conflict test-internal: org.eclipse.jetty:jetty-webapp
+[debug] :: no conflict test-internal: ch.qos.logback:logback-core
+[debug] :: no conflict test-internal: com.fasterxml.jackson.datatype:jackson-datatype-joda
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-auth
+[debug] :: no conflict test-internal: com.fasterxml.jackson.module:jackson-module-scala_2.12
+[debug] :: no conflict test-internal: com.h2database:h2
+[debug] :: no conflict test-internal: com.mchange:mchange-commons-java
+[debug] :: no conflict test-internal: io.dropwizard.metrics:metrics-servlets
+[debug] :: no conflict test-internal: org.jboss.logging:jboss-logging
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-core
+[debug] :: no conflict test-internal: org.glassfish.jersey.media:jersey-media-jaxb
+[debug] :: no conflict test-internal: org.glassfish.jersey.media:jersey-media-multipart
+[debug] :: no conflict test-internal: io.dropwizard:dropwizard-lifecycle
+[debug] ::: -----------
+[debug] :: plugin: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: sources: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: docs: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: pom: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: scala-tool: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library, org.scala-lang.modules:scala-xml_2.12, org.scala-lang:scala-reflect, jline:jline, org.scala-lang:scala-compiler
+[debug] :: no conflict scala-tool: org.scala-lang:scala-library
+[debug] :: no conflict scala-tool: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict scala-tool: org.scala-lang:scala-reflect
+[debug] :: no conflict scala-tool: jline:jline
+[debug] :: no conflict scala-tool: org.scala-lang:scala-compiler
+[debug] ::: -----------
+[debug] :: scoveragePlugin: loop: List()
+[debug] :: sort result: 
+[debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator

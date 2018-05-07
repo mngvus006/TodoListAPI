@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.allangray.common:common-test-implementations:20.0.5:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.allangray.common/common-test-implementations/jars/common-test-implementations-20.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.allangray.common/common-test-implementations/srcs/common-test-implementations-20.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

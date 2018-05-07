@@ -1,0 +1,6 @@
+CREATE TABLE Todo (
+  id int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+  task varchar(255) NOT NULL,
+  completed bit,
+  active bit
+);

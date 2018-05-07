@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="core" external.linked.project.path="$MODULE_DIR$/../../core" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../core/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../../core/target/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../core">
+      <sourceFolder url="file://$MODULE_DIR$/../../core/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../core/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../core/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../core/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../core/target/src_managed/main" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../core/target/src_managed/test" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../core/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../core/target/resource_managed/main" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../core/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../core/target/resource_managed/test" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../core/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="api" exported="" />
+    <orderEntry type="library" name="sbt: cglib:cglib-nodep:3.2.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: ch.qos.logback:logback-access:1.2.3:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: ch.qos.logback:logback-classic:1.2.3:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: ch.qos.logback:logback-core:1.2.3:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.allangray.common:common-implementations:20.0.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.allangray.common:common-implementations:20.0.5:tests:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.allangray.common:common-interfaces:20.0.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.allangray.common:common-interfaces:20.0.5:tests:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.allangray.common:common-primitives:7.0.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.allangray.common:common-primitives:7.0.1:tests:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.allangray.common:common-rest:20.0.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.allangray.common:common-shared-implementations:20.0.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.allangray.common:common-test-implementations:20.0.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.fasterxml:classmate:1.3.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.9.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.9.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.9.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.fasterxml.jackson.datatype:jackson-datatype-guava:2.9.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.fasterxml.jackson.datatype:jackson-datatype-joda:2.9.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.9.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.9.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.fasterxml.jackson.module:jackson-module-afterburner:2.9.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.module:jackson-module-paranamer:2.9.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.module:jackson-module-scala_2.12:2.9.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.google.code.findbugs:jsr305:3.0.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.google.errorprone:error_prone_annotations:2.0.18:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.google.guava:guava:23.5-jre:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.google.j2objc:j2objc-annotations:1.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.googlecode.json-simple:json-simple:1.1.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.h2database:h2:1.4.196:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.mchange:c3p0:0.9.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.mchange:mchange-commons-java:0.2.9:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.oracle:ojdbc6:11.2.0.3:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.papertrail:profiler:1.0.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.thoughtworks.paranamer:paranamer:2.8:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: com.thoughtworks.xstream:xstream:1.4.10:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: commons-codec:commons-codec:1.10:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: commons-io:commons-io:2.6:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard:dropwizard-auth:1.2.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard:dropwizard-configuration:1.2.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard:dropwizard-core:1.2.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard:dropwizard-jackson:1.2.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard:dropwizard-jersey:1.2.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard:dropwizard-jetty:1.2.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard:dropwizard-lifecycle:1.2.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard:dropwizard-logging:1.2.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard:dropwizard-metrics:1.2.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard:dropwizard-request-logging:1.2.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard:dropwizard-servlets:1.2.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard:dropwizard-util:1.2.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard:dropwizard-validation:1.2.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard.metrics:metrics-annotation:3.2.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard.metrics:metrics-core:3.2.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard.metrics:metrics-healthchecks:3.2.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard.metrics:metrics-jersey2:3.2.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard.metrics:metrics-jetty9:3.2.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard.metrics:metrics-json:3.2.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard.metrics:metrics-jvm:3.2.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard.metrics:metrics-logback:3.2.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.dropwizard.metrics:metrics-servlets:3.2.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.jsonwebtoken:jjwt:0.9.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.swagger:swagger-annotations:1.5.17:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.swagger:swagger-core:1.5.17:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.swagger:swagger-jaxrs:1.5.17:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.swagger:swagger-models:1.5.17:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.swagger:swagger-scala-module_2.12:1.0.4:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: javax.annotation:javax.annotation-api:1.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: javax.servlet:javax.servlet-api:3.1.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: javax.validation:validation-api:1.1.0.Final:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: javax.ws.rs:javax.ws.rs-api:2.0.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: javax.ws.rs:jsr311-api:1.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: joda-time:joda-time:2.9.9:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: junit:junit:4.12:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: net.bytebuddy:byte-buddy:1.7.9:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: net.bytebuddy:byte-buddy-agent:1.7.9:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: net.sourceforge.argparse4j:argparse4j:0.7.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: net.sourceforge.jtds:jtds:1.3.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.apache.commons:commons-lang3:3.7:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.apache.httpcomponents:httpclient:4.5.4:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.apache.httpcomponents:httpcore:4.4.7:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.apache.httpcomponents:httpmime:4.5.4:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.checkerframework:checker-qual:2.0.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.codehaus.mojo:animal-sniffer-annotations:1.14:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.eclipse.jetty:jetty-continuation:9.4.7.v20170914:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.eclipse.jetty:jetty-http:9.4.7.v20170914:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.eclipse.jetty:jetty-io:9.4.7.v20170914:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.eclipse.jetty:jetty-security:9.4.7.v20170914:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.eclipse.jetty:jetty-server:9.4.7.v20170914:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.eclipse.jetty:jetty-servlet:9.4.7.v20170914:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.eclipse.jetty:jetty-servlets:9.4.7.v20170914:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.eclipse.jetty:jetty-util:9.4.7.v20170914:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.eclipse.jetty:jetty-webapp:9.4.7.v20170914:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.eclipse.jetty:jetty-xml:9.4.7.v20170914:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:1.0.3:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.flywaydb:flyway-core:4.2.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish:javax.el:3.0.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.hk2:hk2-api:2.5.0-b32:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.hk2:hk2-locator:2.5.0-b32:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.hk2:hk2-utils:2.5.0-b32:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.hk2:osgi-resource-locator:1.0.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b32:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.hk2.external:javax.inject:2.5.0-b32:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.25.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.jersey.containers:jersey-container-servlet:2.25.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.jersey.containers:jersey-container-servlet-core:2.25.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.jersey.core:jersey-client:2.25.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.jersey.core:jersey-common:2.25.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.jersey.core:jersey-server:2.25.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.jersey.ext:jersey-bean-validation:2.25.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.jersey.ext:jersey-metainf-services:2.25.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.jersey.media:jersey-media-jaxb:2.25.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.glassfish.jersey.media:jersey-media-multipart:2.25.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.hamcrest:hamcrest-core:1.3:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.hibernate:hibernate-validator:5.4.1.Final:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.javassist:javassist:3.21.0-GA:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.jboss.logging:jboss-logging:3.3.0.Final:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.joda:joda-convert:1.9.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.json4s:json4s-scalap_2.12:3.5.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.jvnet.mimepull:mimepull:1.9.6:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.mockito:mockito-core:2.13.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.objenesis:objenesis:2.6:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.reflections:reflections:0.9.11:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.12.4:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang.modules:scala-parser-combinators_2.12:1.0.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-xml_2.12:1.0.6:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalactic:scalactic_2.12:3.0.4:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest_2.12:3.0.4:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.slf4j:jcl-over-slf4j:1.7.25:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.slf4j:jul-to-slf4j:1.7.25:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.slf4j:log4j-over-slf4j:1.7.25:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.slf4j:slf4j-api:1.7.25:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.springframework:spring-aop:5.0.2.RELEASE:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.springframework:spring-beans:5.0.2.RELEASE:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.springframework:spring-context:5.0.2.RELEASE:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.springframework:spring-core:5.0.2.RELEASE:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.springframework:spring-expression:5.0.2.RELEASE:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.springframework:spring-jcl:5.0.2.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.squeryl:squeryl_2.12:0.9.9:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.yaml:snakeyaml:1.18:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: xmlpull:xmlpull:1.1.3.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: xpp3:xpp3_min:1.1.4c:jar" level="project" />
+  </component>
+</module>

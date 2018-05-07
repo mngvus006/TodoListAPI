@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-resolve-c0d6169a55470437ae84f642fa6ce4440ef5b0f4"
+		revision="1.0"
+		conf="scoveragePlugin"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
+		date="20180206151402"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

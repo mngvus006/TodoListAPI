@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-resolve-8c97e75c5e5d9650bf3e94d28c18fe5227f45222"
+		revision="1.0"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
+		date="20180206151401"/>
+	<dependencies>
+		<module organisation="io.dropwizard" name="dropwizard-lifecycle">
+			<revision name="1.2.2" status="release" pubdate="20180110155442" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="46055" time="0" location="/home/dev/.ivy2/cache/io.dropwizard/dropwizard-lifecycle/ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/io/dropwizard/dropwizard-lifecycle/1.2.2/dropwizard-lifecycle-1.2.2.pom"/>
+				<caller organisation="org.scala-sbt.temp" name="temp-resolve-8c97e75c5e5d9650bf3e94d28c18fe5227f45222" conf="test, compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="dropwizard-lifecycle" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8576" time="0" location="/home/dev/.ivy2/cache/io.dropwizard/dropwizard-lifecycle/srcs/dropwizard-lifecycle-1.2.2-sources.jar">
+						<origin-location is-local="false" location="https://theluggage-agct.gray.net/artifactory/maven-remote-repo/io/dropwizard/dropwizard-lifecycle/1.2.2/dropwizard-lifecycle-1.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
